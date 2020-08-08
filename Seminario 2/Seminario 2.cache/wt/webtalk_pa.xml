@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sat Aug 08 17:37:02 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="52294d68b96244ee94a71d5e26853560" type="ProjectID"/>
+<property name="ProjectIteration" value="32" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="5" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="2" type="JavaHandler"/>
+<property name="AutoEnforceLegalIOPlacement" value="2" type="JavaHandler"/>
+<property name="AutocreatePblocks" value="1" type="JavaHandler"/>
+<property name="CloseProject" value="5" type="JavaHandler"/>
+<property name="CoreView" value="1" type="JavaHandler"/>
+<property name="DebugWizardCmdHandler" value="1" type="JavaHandler"/>
+<property name="EditConstraintSets" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="2" type="JavaHandler"/>
+<property name="EditProperties" value="1" type="JavaHandler"/>
+<property name="EditSimulationSets" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="1" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="2" type="JavaHandler"/>
+<property name="MakePartCompatible" value="1" type="JavaHandler"/>
+<property name="NewLaunchHardware" value="1" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="2" type="JavaHandler"/>
+<property name="OpenProject" value="13" type="JavaHandler"/>
+<property name="PlacePorts" value="2" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="26" type="JavaHandler"/>
+<property name="ProjectSummary" value="3" type="JavaHandler"/>
+<property name="RefreshDevice" value="1" type="JavaHandler"/>
+<property name="ReportClockInteraction" value="6" type="JavaHandler"/>
+<property name="ReportClockNetworks" value="3" type="JavaHandler"/>
+<property name="ReportDRC" value="2" type="JavaHandler"/>
+<property name="ReportMethodology" value="1" type="JavaHandler"/>
+<property name="ReportTimingSummary" value="16" type="JavaHandler"/>
+<property name="RunBitgen" value="9" type="JavaHandler"/>
+<property name="RunImplementation" value="26" type="JavaHandler"/>
+<property name="RunPowerEstimation" value="1" type="JavaHandler"/>
+<property name="RunSchematic" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="17" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="3" type="JavaHandler"/>
+<property name="ShowPowerEstimation" value="1" type="JavaHandler"/>
+<property name="ShowView" value="13" type="JavaHandler"/>
+<property name="SimulationBreak" value="2" type="JavaHandler"/>
+<property name="SimulationClose" value="6" type="JavaHandler"/>
+<property name="SimulationCompileLibraries" value="2" type="JavaHandler"/>
+<property name="SimulationRestart" value="46" type="JavaHandler"/>
+<property name="SimulationRun" value="32" type="JavaHandler"/>
+<property name="SimulationRunAll" value="32" type="JavaHandler"/>
+<property name="SimulationRunForTime" value="118" type="JavaHandler"/>
+<property name="TimingConstraintsWizard" value="8" type="JavaHandler"/>
+<property name="ToolsOptions" value="9" type="JavaHandler"/>
+<property name="ToolsTemplates" value="1" type="JavaHandler"/>
+<property name="ViewLayoutCmd" value="9" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="18" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="1" type="JavaHandler"/>
+<property name="WaveformSaveConfiguration" value="1" type="JavaHandler"/>
+<property name="ZoomFit" value="8" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="Div_frec.vhd, 105, 48" value="1" type="GuiResourceData"/>
+<property name="Div_frec.vhd, 105, 48, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Div_frec.vhd, 37, 15" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Top - estructural (top.vhd" value="6" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.RunGadget_SHOW_ERROR, 3 errors" value="1" type="GuiResourceData"/>
+<property name="contador_4bits.vhd, 132, 50" value="1" type="GuiResourceData"/>
+<property name="contador_4bits.vhd, 132, 50, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="contador_4bits.vhd, 93, 14" value="1" type="GuiResourceData"/>
+<property name="top.vhd, 1, 14" value="1" type="GuiResourceData"/>
+<property name="top.vhd, 115, 44" value="1" type="GuiResourceData"/>
+<property name="top.vhd, 115, 44, false, false, false, false, true" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="84" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="77" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

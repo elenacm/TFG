@@ -1,0 +1,27 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 8d0d21e6b4db4c9d90c7c9084efecc2f --debug typical --relax --mt 2 -L xil_defaultlib -L xpm -L blk_mem_gen_v8_3_3 -L unisims_ver -L unimacro_ver -L secureip --snapshot my_scomp_behav xil_defaultlib.my_scomp xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [C:/Users/eleni/Desktop/project_1/ipgenerator/ipgenerator.ip_user_files/ipstatic/blk_mem_gen_v8_3_3/simulation/blk_mem_gen_v8_3.v:2414]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [C:/Users/eleni/Desktop/project_1/ipgenerator/ipgenerator.ip_user_files/ipstatic/blk_mem_gen_v8_3_3/simulation/blk_mem_gen_v8_3.v:2415]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.std_logic_signed
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3_output_stage(...
+Compiling module blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3_output_stage(...
+Compiling module blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3_softecc_outpu...
+Compiling module blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_3_3.blk_mem_gen_v8_3_3(C_FAMILY="zyn...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling architecture behavioral of entity xil_defaultlib.procesador [procesador_default]
+Compiling architecture rtl of entity xil_defaultlib.my_scomp
+Built simulation snapshot my_scomp_behav

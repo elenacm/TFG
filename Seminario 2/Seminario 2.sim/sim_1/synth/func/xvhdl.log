@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Desktop/project_1/Seminario 2/Seminario 2.sim/sim_1/synth/func/Top_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Div_Frec
+INFO: [VRFC 10-307] analyzing entity contador_4bits
+INFO: [VRFC 10-307] analyzing entity Top

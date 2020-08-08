@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1587398947">
+  <File Type="ROUTE-STATUS-PB" Name="encerder1led_route_status.pb"/>
+  <File Type="PA-TCL" Name="encerder1led.tcl"/>
+  <File Type="OPT-DCP" Name="encerder1led_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="encerder1led_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="encerder1led_methodology_drc_opted.rpt"/>
+  <File Type="RDI-RDI" Name="encerder1led.vdi"/>
+  <File Type="PWROPT-DRC" Name="encerder1led_drc_pwropted.rpt"/>
+  <File Type="OPT-DRC" Name="encerder1led_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="encerder1led_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="encerder1led.hwdef"/>
+  <File Type="OPT-TIMING" Name="encerder1led_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="encerder1led_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="encerder1led_placed.dcp"/>
+  <File Type="PLACE-IO" Name="encerder1led_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="encerder1led_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="encerder1led_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="encerder1led_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="encerder1led_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="encerder1led_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="encerder1led_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="encerder1led_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="encerder1led_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="encerder1led_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="encerder1led_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="encerder1led_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="encerder1led_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="encerder1led_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="encerder1led_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="encerder1led_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="encerder1led_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="encerder1led_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="encerder1led_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="encerder1led.bit"/>
+  <File Type="ROUTE-PWR" Name="encerder1led_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="encerder1led_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="encerder1led_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="encerder1led_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="encerder1led_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="encerder1led_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="encerder1led_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="encerder1led_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="encerder1led_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="encerder1led_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="encerder1led_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="encerder1led_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="encerder1led_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="encerder1led_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="encerder1led.bin"/>
+  <File Type="BITSTR-MSK" Name="encerder1led.msk"/>
+  <File Type="BITSTR-RBT" Name="encerder1led.rbt"/>
+  <File Type="BITSTR-NKY" Name="encerder1led.nky"/>
+  <File Type="BITSTR-BMM" Name="encerder1led_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="encerder1led.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="encerder1led.sysdef"/>
+  <File Type="BG-BGN" Name="encerder1led.bgn"/>
+  <File Type="BG-DRC" Name="encerder1led.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/encerder1led.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="encerder1led"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../digilent-xdc-master/Zybo-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

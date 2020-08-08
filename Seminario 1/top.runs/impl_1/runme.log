@@ -1,0 +1,494 @@
+
+*** Running vivado
+    with args -log Top.vdi -applog -m64 -messageDb vivado.pb -mode batch -source Top.tcl -notrace
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source Top.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'CLOCK'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'CLOCK'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:9]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports CLOCK]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:9]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'KEY[0]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'KEY[1]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'KEY[2]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'KEY[3]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[0]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:129]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:129]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[1]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:130]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:130]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[2]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:131]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[3]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:132]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:132]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[4]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:133]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:133]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[0]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:134]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:134]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[1]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:135]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:135]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[2]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:136]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:136]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[3]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[4]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[5]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:139]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:139]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[0]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[1]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:141]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[2]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:142]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[3]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:143]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:143]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[4]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_HS'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_VS'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 446.684 ; gain = 239.320
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.173 . Memory (MB): peak = 450.441 ; gain = 3.758
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 256304d2
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 256304d2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 884.598 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant Propagation | Checksum: 256304d2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 884.598 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 19 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: 1634146e3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 884.598 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 884.598 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1634146e3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 884.598 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1634146e3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 884.598 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+21 Infos, 24 Warnings, 24 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 884.598 ; gain = 437.914
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/eleni/Documents/GitHub/TFG/Seminario 1/top.runs/impl_1/Top_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 884.598 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 884.598 ; gain = 0.000
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 ParallelPlaceIOClockAndInitTop
+
+Phase 1.1.1.1 Pre-Place Cells
+Phase 1.1.1.1 Pre-Place Cells | Checksum: 00000000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 884.598 ; gain = 0.000
+
+Phase 1.1.1.2 Constructing HAPIClkRuleMgr
+Phase 1.1.1.2 Constructing HAPIClkRuleMgr | Checksum: 00000000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 884.598 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.1.3 IO and Clk Clean Up
+
+Phase 1.1.1.3.1 Constructing HAPIClkRuleMgr
+Phase 1.1.1.3.1 Constructing HAPIClkRuleMgr | Checksum: 00000000
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.525 . Memory (MB): peak = 900.484 ; gain = 15.887
+Phase 1.1.1.3 IO and Clk Clean Up | Checksum: 00000000
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.530 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 1.1.1.4 Implementation Feasibility check On IDelay
+Phase 1.1.1.4 Implementation Feasibility check On IDelay | Checksum: 00000000
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.531 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 1.1.1.5 Commit IO Placement
+Phase 1.1.1.5 Commit IO Placement | Checksum: dd59a8a2
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.533 . Memory (MB): peak = 900.484 ; gain = 15.887
+Phase 1.1.1 ParallelPlaceIOClockAndInitTop | Checksum: dd59a8a2
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.534 . Memory (MB): peak = 900.484 ; gain = 15.887
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 12911bce3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.534 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 1.2 Build Placer Netlist Model
+
+Phase 1.2.1 Place Init Design
+
+Phase 1.2.1.1 Make Others
+Phase 1.2.1.1 Make Others | Checksum: 14ee4543c
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.545 . Memory (MB): peak = 900.484 ; gain = 15.887
+Phase 1.2.1 Place Init Design | Checksum: 196ab4ded
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.547 . Memory (MB): peak = 900.484 ; gain = 15.887
+Phase 1.2 Build Placer Netlist Model | Checksum: 196ab4ded
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.548 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: 196ab4ded
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.549 . Memory (MB): peak = 900.484 ; gain = 15.887
+Phase 1 Placer Initialization | Checksum: 196ab4ded
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.550 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 17e1b0363
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.688 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 17e1b0363
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.691 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 196785954
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.700 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 17a3c0bad
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.707 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 3.4 Small Shape Detail Placement
+Phase 3.4 Small Shape Detail Placement | Checksum: 16b1c4df1
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.791 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 3.5 Re-assign LUT pins
+Phase 3.5 Re-assign LUT pins | Checksum: 16b1c4df1
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.795 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 3.6 Pipeline Register Optimization
+Phase 3.6 Pipeline Register Optimization | Checksum: 16b1c4df1
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.797 . Memory (MB): peak = 900.484 ; gain = 15.887
+Phase 3 Detail Placement | Checksum: 16b1c4df1
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.798 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 4.1 Post Commit Optimization | Checksum: 16b1c4df1
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.805 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 4.2 Sweep Clock Roots: Post-Placement
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 16b1c4df1
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.815 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 16b1c4df1
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.817 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 4.4 Placer Reporting
+Phase 4.4 Placer Reporting | Checksum: 16b1c4df1
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.819 . Memory (MB): peak = 900.484 ; gain = 15.887
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 1b723e371
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.822 . Memory (MB): peak = 900.484 ; gain = 15.887
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1b723e371
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.823 . Memory (MB): peak = 900.484 ; gain = 15.887
+Ending Placer Task | Checksum: fe98beab
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.828 . Memory (MB): peak = 900.484 ; gain = 15.887
+INFO: [Common 17-83] Releasing license: Implementation
+34 Infos, 24 Warnings, 24 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.144 . Memory (MB): peak = 900.484 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.115 . Memory (MB): peak = 900.484 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 900.484 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 900.484 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 66d914ea ConstDB: 0 ShapeSum: 97bfa9c1 RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: cdab8ae1
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 952.988 ; gain = 52.504
+
+Phase 2 Router Initialization
+INFO: [Route 35-64] No timing constraints were detected. The router will operate in resource-optimization mode.
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: cdab8ae1
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 959.051 ; gain = 58.566
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: cdab8ae1
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 959.051 ; gain = 58.566
+ Number of Nodes with overlaps = 0
+Phase 2 Router Initialization | Checksum: e8471d9e
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 962.199 ; gain = 61.715
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1621db60d
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 962.199 ; gain = 61.715
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+Phase 4.1 Global Iteration 0 | Checksum: 7fcbf2ad
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 962.199 ; gain = 61.715
+Phase 4 Rip-up And Reroute | Checksum: 7fcbf2ad
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 962.199 ; gain = 61.715
+
+Phase 5 Delay and Skew Optimization
+Phase 5 Delay and Skew Optimization | Checksum: 7fcbf2ad
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 962.199 ; gain = 61.715
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+Phase 6.1 Hold Fix Iter | Checksum: 7fcbf2ad
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 962.199 ; gain = 61.715
+Phase 6 Post Hold Fix | Checksum: 7fcbf2ad
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 962.199 ; gain = 61.715
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00872748 %
+  Global Horizontal Routing Utilization  = 0.0112592 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 5.40541%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 9.90991%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 11.7647%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 4.41176%, No Congested Regions.
+Phase 7 Route finalize | Checksum: 7fcbf2ad
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 962.199 ; gain = 61.715
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 7fcbf2ad
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 962.199 ; gain = 61.715
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1364f572f
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 962.199 ; gain = 61.715
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 962.199 ; gain = 61.715
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+42 Infos, 24 Warnings, 24 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 962.199 ; gain = 61.715
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.087 . Memory (MB): peak = 962.199 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/eleni/Documents/GitHub/TFG/Seminario 1/top.runs/impl_1/Top_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+WARNING: [Power 33-232] No user defined clocks were found in the design!
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 08 16:31:55 2020...
+
+*** Running vivado
+    with args -log Top.vdi -applog -m64 -messageDb vivado.pb -mode batch -source Top.tcl -notrace
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source Top.tcl -notrace
+Command: open_checkpoint Top_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 207.355 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/Seminario 1/top.runs/impl_1/.Xil/Vivado-14216-LAPTOP-3I35GVHS/dcp/Top.xdc]
+Finished Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/Seminario 1/top.runs/impl_1/.Xil/Vivado-14216-LAPTOP-3I35GVHS/dcp/Top.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.083 . Memory (MB): peak = 446.961 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.085 . Memory (MB): peak = 446.961 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2016.2 (64-bit) build 1577090
+open_checkpoint: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 446.961 ; gain = 239.605
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC 23-20] Rule violation (NSTD-1) Unspecified I/O Standard - 13 out of 13 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks NSTD-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. Problem ports: Velocidad[2:0], SegDigit1[0:3], SegDigit2[0:3], Reloj, Reset.
+ERROR: [DRC 23-20] Rule violation (UCIO-1) Unconstrained Logical Port - 13 out of 13 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: Velocidad[2:0], SegDigit1[0:3], SegDigit2[0:3], Reloj, Reset.
+WARNING: [DRC 23-20] Rule violation (ZPS7-1) PS7 block required - The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+INFO: [Vivado 12-3199] DRC finished with 2 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado 12-1345] Error(s) found during DRC. Bitgen not run.
+INFO: [Common 17-83] Releasing license: Implementation
+ERROR: [Common 17-39] 'write_bitstream' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Sat Aug 08 16:32:28 2020...

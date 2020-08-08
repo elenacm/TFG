@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Jun 13 19:10:09 2020
+# Process ID: 296
+# Current directory: C:/Users/eleni/Desktop/project_1/ejemplo1/ejemplo1.runs/synth_1
+# Command line: vivado.exe -log comb.vds -mode batch -messageDb vivado.pb -notrace -source comb.tcl
+# Log file: C:/Users/eleni/Desktop/project_1/ejemplo1/ejemplo1.runs/synth_1/comb.vds
+# Journal file: C:/Users/eleni/Desktop/project_1/ejemplo1/ejemplo1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source comb.tcl -notrace

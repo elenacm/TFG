@@ -1,0 +1,9 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Desktop/project_1/Seminario 2/Seminario 2.sim/sim_1/impl/func/top_tb_func_impl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Div_Frec
+INFO: [VRFC 10-307] analyzing entity contador_4bits
+INFO: [VRFC 10-307] analyzing entity Top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Desktop/DHD/Seminario 2/contador_4bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity contador_4bits
+WARNING: [VRFC 10-1193] overwriting existing primary unit contador_4bits [C:/Users/eleni/Desktop/DHD/Seminario 2/contador_4bits.vhd:8]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Desktop/project_1/Seminario 2/Seminario 2.srcs/sim_1/new/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb

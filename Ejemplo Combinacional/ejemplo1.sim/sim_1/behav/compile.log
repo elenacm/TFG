@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Desktop/project_1/ejemplo1/ejemplo1.srcs/sources_1/new/comb.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Desktop/project_1/ejemplo1/ejemplo1.srcs/sim_1/new/comb_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity comb_tb
