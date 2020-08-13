@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1588186245">
-  <File Type="OPT-DCP" Name="encerder1led_opt.dcp"/>
   <File Type="ROUTE-STATUS-PB" Name="encerder1led_route_status.pb"/>
   <File Type="PA-TCL" Name="encerder1led.tcl"/>
+  <File Type="OPT-DCP" Name="encerder1led_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="encerder1led_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="encerder1led_methodology_drc_opted.rpt"/>
   <File Type="RDI-RDI" Name="encerder1led.vdi"/>
   <File Type="PWROPT-DRC" Name="encerder1led_drc_pwropted.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="encerder1led_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="encerder1led_timing_summary_init.rpt"/>
   <File Type="OPT-DRC" Name="encerder1led_drc_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="encerder1led_pwropt.dcp"/>
   <File Type="OPT-HWDEF" Name="encerder1led.hwdef"/>
@@ -31,8 +31,8 @@
   <File Type="ROUTE-DRC" Name="encerder1led_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="encerder1led_drc_routed.pb"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="encerder1led_methodology_drc_routed.rpt"/>
-  <File Type="BG-BIT" Name="encerder1led.bit"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="encerder1led_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="encerder1led.bit"/>
   <File Type="ROUTE-PWR" Name="encerder1led_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="encerder1led_power_summary_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="encerder1led_power_routed.rpx"/>

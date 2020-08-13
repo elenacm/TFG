@@ -1,0 +1,16 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Resumen y palabras clave}{1}%
+\contentsline {chapter}{\numberline {2}Resumen extendido y palabras clave en inglés}{3}%
+\contentsline {chapter}{\numberline {3}Motivación e introducción}{5}%
+\contentsline {section}{\numberline {3.1}Sistemas basados en dispositivos FPGAs}{5}%
+\contentsline {subsection}{\numberline {3.1.1}Aplicaciones}{6}%
+\contentsline {section}{\numberline {3.2}Niveles de síntesis automática}{7}%
+\contentsline {section}{\numberline {3.3}Plataformas de desarrollo}{7}%
+\contentsline {section}{\numberline {3.4}Estructura de la memoria}{7}%
+\contentsline {chapter}{\numberline {4}Objetivos del trabajo}{9}%
+\contentsline {chapter}{\numberline {5}Resolución del trabajo}{11}%
+\contentsline {section}{\numberline {5.1}Materiales}{11}%
+\contentsline {section}{\numberline {5.2}Metodología}{19}%
+\contentsline {section}{\numberline {5.3}Desarrollo de módulos hardware específicos}{19}%
+\contentsline {section}{\numberline {5.4}Casos prácticos}{19}%
+\contentsline {chapter}{\numberline {6}Conclusiones y vías futuras}{21}%

@@ -1,0 +1,42 @@
+\begin{thebibliography}{1}
+
+\bibitem{manual_zybo}
+Digilent.
+\newblock Zybo fpga board reference manual.
+\newblock \url{https://reference.digilentinc.com/_media/zybo:zybo_rm.pdf}.
+
+\bibitem{fpga_clive}
+Clive Maxfield.
+\newblock Conceptos fundamentales de los fpga: ¿qué son los fpga y por qué
+  son necesarios?
+\newblock
+  \url{https://www.digikey.es/es/articles/fundamentals-of-fpgas-what-are-fpgas-and-why-are-they-needed}.
+
+\bibitem{maxfield2}
+Clive Maxfield.
+\newblock {\em The design warrior's guide to FPGAs: devices, tools and flows}.
+\newblock Elsevier, 2004.
+
+\bibitem{maxfield1}
+Clive Maxfield.
+\newblock {\em FPGAs: instant access}.
+\newblock Elsevier, 2011.
+
+\bibitem{vivado_wiki}
+Wikipedia.
+\newblock Xilinx vivado.
+\newblock \url{https://en.wikipedia.org/wiki/Xilinx_Vivado}.
+
+\bibitem{fpga_xilinx}
+Xilinx.
+\newblock Field programmable gate array (fpga).
+\newblock
+  \url{https://www.xilinx.com/products/silicon-devices/fpga/what-is-an-fpga.html}.
+
+\bibitem{vivadoIDE}
+Xilinx.
+\newblock Vivado design suite user guide : Using the vivado ide.
+\newblock
+  \url{https://www.xilinx.com/support/documentation/sw_manuals/xilinx2016_2/ug893-vivado-ide.pdf}.
+
+\end{thebibliography}

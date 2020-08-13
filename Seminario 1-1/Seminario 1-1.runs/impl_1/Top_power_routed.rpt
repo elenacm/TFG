@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date             : Mon Jun 01 17:29:56 2020
+| Date             : Mon Aug 10 18:56:06 2020
 | Host             : LAPTOP-3I35GVHS running 64-bit major release  (build 9200)
 | Command          : report_power -file Top_power_routed.rpt -pb Top_power_summary_routed.pb -rpx Top_power_routed.rpx
 | Design           : Top
@@ -50,14 +50,14 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |       49 |       --- |             --- |
-|   LUT as Logic |    <0.001 |        5 |     17600 |            0.03 |
+| Slice Logic    |    <0.001 |       53 |       --- |             --- |
+|   LUT as Logic |    <0.001 |        7 |     17600 |            0.04 |
 |   Register     |    <0.001 |       31 |     35200 |            0.09 |
 |   CARRY4       |    <0.001 |        7 |      4400 |            0.16 |
 |   F7/F8 Muxes  |    <0.001 |        1 |     17600 |           <0.01 |
 |   Others       |     0.000 |        3 |       --- |             --- |
-| Signals        |    <0.001 |       41 |       --- |             --- |
-| I/O            |     0.014 |        9 |       100 |            9.00 |
+| Signals        |    <0.001 |       45 |       --- |             --- |
+| I/O            |     0.013 |        9 |       100 |            9.00 |
 | Static Power   |     0.103 |          |           |                 |
 | Total          |     0.118 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
@@ -70,7 +70,7 @@ Table of Contents
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
 | Vccint    |       1.000 |     0.005 |       0.001 |      0.004 |
-| Vccaux    |       1.800 |     0.012 |       0.001 |      0.011 |
+| Vccaux    |       1.800 |     0.012 |       0.000 |      0.011 |
 | Vcco33    |       3.300 |     0.005 |       0.004 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
@@ -132,7 +132,7 @@ Table of Contents
 +-------------+--------+-----------------+
 | Clock       | Domain | Constraint (ns) |
 +-------------+--------+-----------------+
-| sys_clk_pin | clk    |             8.0 |
+| sys_clk_pin | CLOCK  |             8.0 |
 +-------------+--------+-----------------+
 
 
@@ -147,7 +147,8 @@ Table of Contents
 +---------------------+-----------+
 | Top                 |     0.015 |
 |   Contador4         |    <0.001 |
-|   DivisorFrecuencia |     0.001 |
+|   Digito            |    <0.001 |
+|   DivisorFrecuencia |    <0.001 |
 +---------------------+-----------+
 
 

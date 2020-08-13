@@ -1,0 +1,4 @@
+{
+    "latex-workshop.latex.build.forceRecipeUsage": true,
+    "latex-workshop.latex.recipe.default": "lastUsed"
+}

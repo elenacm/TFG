@@ -21,18 +21,18 @@
 
 
 module encerder1led(
-    input clk,              //Entrada reloj
+    input CLOCK,              //Entrada reloj
     input [3:0] sw,         //Entrada switches
-    input [3:0] btn,        //Entrada botones
+    input [3:0] KEY,        //Entrada botones
     output reg [3:0] led    //Salida Leds   
     );
     
     always @ (sw) 
         begin
-            led[0] = btn[0];//sw[0];
-            led[1] = btn[1];//sw[1];
-            led[2] = btn[2];//sw[2];
-            led[3] = btn[3];//sw[3];
+            led[0] = KEY[0];//sw[0];
+            led[1] = KEY[1];//sw[1];
+            led[2] = KEY[2];//sw[2];
+            led[3] = KEY[3];//sw[3];
         end
     
 endmodule

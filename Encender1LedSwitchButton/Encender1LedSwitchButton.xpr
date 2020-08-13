@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="14" Path="C:/Users/eleni/Desktop/project_1/Encender1LedSwitch/Encender1LedSwitch.xpr">
+<Project Version="7" Minor="14" Path="C:/Users/eleni/Documents/GitHub/TFG/Encender1LedSwitchButton/Encender1LedSwitchButton.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="d7cde1bfc1594aad908ddab986539f47"/>
@@ -58,7 +58,7 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PPRDIR/../digilent-xdc-master/Zybo-Master.xdc">
+      <File Path="$PPRDIR/../XDC master/ZYBO_Master.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

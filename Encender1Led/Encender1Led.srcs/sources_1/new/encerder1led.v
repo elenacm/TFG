@@ -21,13 +21,13 @@
 
 
 module encerder1led(
-    input clk,
+    input CLOCK,
     output led
     );
     
     reg [24:0] count = 0;
     assign led = count[24];
     
-    always @ (posedge(clk)) count <= count + 1;
+    always @ (posedge(CLOCK)) count <= count + 1;
     
 endmodule

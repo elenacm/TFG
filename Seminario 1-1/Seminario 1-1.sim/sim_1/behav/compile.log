@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Documents/GitHub/DHD/Seminario 1/Div_frec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Div_Frec
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Documents/GitHub/TFG/Seminario 1-1/contador_4bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity contador_4bits
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Documents/GitHub/TFG/Seminario 1-1/Seminario 1-1.srcs/sources_1/new/dec_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dec_7seg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Documents/GitHub/DHD/Seminario 1/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Top
