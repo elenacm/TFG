@@ -16,8 +16,8 @@ set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:zybo:part0:2.0 [current_project]
-add_files -quiet {{c:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp}}
-set_property used_in_implementation false [get_files {{c:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp}}]
+add_files -quiet {{C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp}}
+set_property used_in_implementation false [get_files {{C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp}}]
 read_vhdl -library xil_defaultlib {
   {C:/Users/eleni/Documents/GitHub/TFG/Practica 2/controlador_vga_640_x_480_60.vhd}
   {C:/Users/eleni/Documents/GitHub/TFG/Practica 2/bola.vhd}

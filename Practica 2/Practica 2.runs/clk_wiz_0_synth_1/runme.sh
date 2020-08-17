@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/eleni/Desktop/project_1/Practica 2/Practica 2.runs/clk_wiz_0_synth_1'
+HD_PWD='C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/clk_wiz_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

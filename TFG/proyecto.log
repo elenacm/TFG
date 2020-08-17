@@ -1,0 +1,493 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.8)  16 AUG 2020 20:48
+entering extended mode
+**c:/Users/eleni/Documents/GitHub/TFG/TFG/proyecto.tex
+(c:/Users/eleni/Documents/GitHub/TFG/TFG/proyecto.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18> ("C:\Program Files\MiKTeX\tex/latex/base\book.cls"
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Program Files\MiKTeX\tex/latex/base\bk10.clo"
+File: bk10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) ("C:\Program Files\MiKTeX\tex/latex/listings\listings.sty" ("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\lst@mode=\count176
+\lst@gtempboxa=\box45
+\lst@token=\toks16
+\lst@length=\count177
+\lst@currlwidth=\dimen135
+\lst@column=\count178
+\lst@pos=\count179
+\lst@lostspace=\dimen136
+\lst@width=\dimen137
+\lst@newlines=\count180
+\lst@lineno=\count181
+\lst@maxwidth=\dimen138
+ ("C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count182
+\lst@skipnumbers=\count183
+\lst@framebox=\box46
+) ("C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ ("C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) ("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
+Package: babel 2020/06/10 3.45 The Babel package
+ ("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
+File: babel.def 2020/06/10 3.45 Babel common definitions
+\babel@savecnt=\count184
+\U@D=\dimen139
+\l@babelnohyphens=\language79
+ ("C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count185
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) ("C:\Users\eleni\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-spanish\spanish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+\es@quottoks=\toks19
+\es@quotdepth=\count186
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+)) ("C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) ("C:\Program Files\MiKTeX\tex/latex/tools\dcolumn.sty"
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+ ("C:\Program Files\MiKTeX\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen140
+\ar@mcellbox=\box47
+\extrarowheight=\dimen141
+\NC@list=\toks20
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box48
+)) ("C:\Program Files\MiKTeX\tex/latex/tools\verbatim.sty"
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read3
+) ("C:\Users\eleni\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+) ("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ ("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) ("C:\Program Files\MiKTeX\tex/latex/tools\afterpage.sty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks23
+\AP@partial=\box49
+\AP@footins=\box50
+) ("C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty"
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip60
+\LTright=\skip61
+\LTpre=\skip62
+\LTpost=\skip63
+\LTchunksize=\count187
+\LTcapwidth=\dimen144
+\LT@head=\box51
+\LT@firsthead=\box52
+\LT@foot=\box53
+\LT@lastfoot=\box54
+\LT@cols=\count188
+\LT@rows=\count189
+\c@LT@tables=\count190
+\c@LT@chunks=\count191
+\LT@p@ftn=\toks24
+) ("C:\Users\eleni\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip64
+\bibsep=\skip65
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count192
+) ("C:\Users\eleni\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count193
+\float@exts=\toks25
+\float@box=\box55
+\@float@everytoks=\toks26
+\@floatcapt=\box56
+) ("C:\Program Files\MiKTeX\tex/latex/url\url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) ("C:\Users\eleni\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl.sty"
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+ ("C:\Program Files\MiKTeX\tex/latex/graphics\color.sty"
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+ ("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+\everycr=\toks27
+\minrowclearance=\skip66
+) ("C:\Users\eleni\AppData\Local\Programs\MiKTeX 2.9\tex/latex/footmisc\footmisc.sty"
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks28
+\footnotemargin=\dimen145
+\c@pp@next@reset=\count194
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
+) ("C:\Users\eleni\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pdfpages.sty"
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+ ("C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Program Files\MiKTeX\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count195
+\calc@Bcount=\count196
+\calc@Adimen=\dimen146
+\calc@Bdimen=\dimen147
+\calc@Askip=\skip67
+\calc@Bskip=\skip68
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count197
+\calc@Cskip=\skip69
+) ("C:\Users\eleni\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.sty"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+ ("C:\Users\eleni\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\atbegshi.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+ ("C:\Users\eleni\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) ("C:\Users\eleni\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) ("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)))
+\AM@pagewidth=\dimen148
+\AM@pageheight=\dimen149
+ ("C:\Users\eleni\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pppdftex.def"
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box57
+\AM@global@opts=\toks29
+\AM@pagecnt=\count198
+\AM@toc@title=\toks30
+\c@AM@survey=\count199
+\AM@templatesizebox=\box58
+) ("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count266
+\l__pdf_internal_box=\box59
+) (proyecto.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+\openout1 = `proyecto.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 127.
+LaTeX Font Info:    ... okay on input line 127.
+\c@lstlisting=\count267
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
+ ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count268
+\scratchdimen=\dimen150
+\scratchbox=\box60
+\nofMPsegments=\count269
+\nofMParguments=\count270
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count271
+\MPscratchDim=\dimen151
+\MPnumerator=\count272
+\makeMPintoPDFobject=\count273
+\everyMPtoPDFconversion=\toks32
+) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+)
+\AtBeginShipoutBox=\box61
+ ("C:\Users\eleni\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdflscape\pdflscape.sty"
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+ ("C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+) (portada/portada.tex
+\centeroffset=\skip70
+<imagenes/logo_ugr.jpg, id=1, 777.90625pt x 231.86626pt>
+File: imagenes/logo_ugr.jpg Graphic file (type jpg)
+<use imagenes/logo_ugr.jpg>
+Package pdftex.def Info: imagenes/logo_ugr.jpg  used on input line 12.
+(pdftex.def)             Requested size: 310.4979pt x 92.55026pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 21.
+
+Overfull \hbox (25.5pt too wide) in paragraph at lines 9--22
+| $[]$ 
+ []
+
+<imagenes/etsiit_logo.png, id=2, 110.814pt x 40.4712pt>
+File: imagenes/etsiit_logo.png Graphic file (type png)
+<use imagenes/etsiit_logo.png>
+Package pdftex.def Info: imagenes/etsiit_logo.png  used on input line 30.
+(pdftex.def)             Requested size: 103.50105pt x 37.80023pt.
+
+Overfull \hbox (25.5pt too wide) in paragraph at lines 24--37
+| $[]$ 
+ []
+
+[1
+
+
+{C:/Users/eleni/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./imagenes/logo_ugr.jpg> <./imagenes/etsiit_logo.png>]) [2
+
+] (proyecto.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@toc=\write3
+\openout3 = `proyecto.toc'.
+
+ [1
+
+] [2
+
+] (proyecto.lof
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@lof=\write4
+\openout4 = `proyecto.lof'.
+
+ [3] [4
+
+] (capitulos/01_ResumenClave.tex
+Cap\'{\i }tulo 1.
+) (capitulos/02_ResumenInglés.tex [1
+
+] [2
+
+]
+Cap\'{\i }tulo 2.
+) (capitulos/03_MotivacionIntrosuccion.tex [3] [4
+
+]
+Cap\'{\i }tulo 3.
+<imagenes/arqFPGA.png, id=42, 290.58563pt x 218.31563pt>
+File: imagenes/arqFPGA.png Graphic file (type png)
+<use imagenes/arqFPGA.png>
+Package pdftex.def Info: imagenes/arqFPGA.png  used on input line 15.
+(pdftex.def)             Requested size: 345.0pt x 259.21584pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 41.
+LaTeX Info: Redefining \% on input line 41.
+ [6 <./imagenes/arqFPGA.png>]
+LaTeX Info: Redefining \. on input line 76.
+LaTeX Info: Redefining \% on input line 76.
+ [7]
+LaTeX Info: Redefining \. on input line 115.
+LaTeX Info: Redefining \% on input line 115.
+ [8]) (capitulos/04_Objetivos.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [9] [10
+
+]
+Cap\'{\i }tulo 4.
+) (capitulos/05_Resolución.tex [11] [12
+
+]
+Cap\'{\i }tulo 5.
+[13]
+<imagenes/zybo2.png, id=75, 1659.801pt x 1125.003pt>
+File: imagenes/zybo2.png Graphic file (type png)
+<use imagenes/zybo2.png>
+Package pdftex.def Info: imagenes/zybo2.png  used on input line 41.
+(pdftex.def)             Requested size: 345.0pt x 233.83717pt.
+<imagenes/zynqapsoc.png, id=76, 492.03825pt x 525.76425pt>
+File: imagenes/zynqapsoc.png Graphic file (type png)
+<use imagenes/zynqapsoc.png>
+Package pdftex.def Info: imagenes/zynqapsoc.png  used on input line 52.
+(pdftex.def)             Requested size: 345.0pt x 368.65019pt.
+
+Underfull \vbox (badness 1881) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+ [14 <./imagenes/zybo2.png>]
+LaTeX Info: Redefining \. on input line 68.
+LaTeX Info: Redefining \% on input line 68.
+ [15 <./imagenes/zynqapsoc.png>]
+Overfull \hbox (6.7582pt too wide) in paragraph at lines 81--82
+[]\OT1/cmr/m/n/10 Nos en-con-tra-mos con tres \OT1/cmr/bx/n/10 Co-nec-to-res de au-dio\OT1/cmr/m/n/10 , dos en-tra-das pa-ra microfono
+ []
+
+LaTeX Info: Redefining \. on input line 110.
+LaTeX Info: Redefining \% on input line 110.
+[16]
+<imagenes/Vivado1.png, id=87, 1149.69525pt x 607.67026pt>
+File: imagenes/Vivado1.png Graphic file (type png)
+<use imagenes/Vivado1.png>
+Package pdftex.def Info: imagenes/Vivado1.png  used on input line 122.
+(pdftex.def)             Requested size: 345.0pt x 182.34883pt.
+LaTeX Info: Redefining \. on input line 133.
+LaTeX Info: Redefining \% on input line 133.
+ [17 <./imagenes/Vivado1.png>]
+<imagenes/vivado2.png, id=92, 1154.51324pt x 588.39825pt>
+File: imagenes/vivado2.png Graphic file (type png)
+<use imagenes/vivado2.png>
+Package pdftex.def Info: imagenes/vivado2.png  used on input line 151.
+(pdftex.def)             Requested size: 345.0pt x 175.82951pt.
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
+ [18 <./imagenes/vivado2.png>]
+<imagenes/flownavigator.png, id=98, 199.34476pt x 545.6385pt>
+File: imagenes/flownavigator.png Graphic file (type png)
+<use imagenes/flownavigator.png>
+Package pdftex.def Info: imagenes/flownavigator.png  used on input line 179.
+(pdftex.def)             Requested size: 172.5pt x 472.15398pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 182.
+LaTeX Info: Redefining \% on input line 182.
+ [19]
+LaTeX Info: Redefining \. on input line 187.
+LaTeX Info: Redefining \% on input line 187.
+ [20 <./imagenes/flownavigator.png>]
+<imagenes/default.png, id=107, 580.569pt x 318.59026pt>
+File: imagenes/default.png Graphic file (type png)
+<use imagenes/default.png>
+Package pdftex.def Info: imagenes/default.png  used on input line 194.
+(pdftex.def)             Requested size: 345.0pt x 189.31805pt.
+<imagenes/io.png, id=108, 822.6735pt x 450.483pt>
+File: imagenes/io.png Graphic file (type png)
+<use imagenes/io.png>
+Package pdftex.def Info: imagenes/io.png  used on input line 200.
+(pdftex.def)             Requested size: 345.0pt x 188.91974pt.
+<imagenes/clock.png, id=109, 585.98924pt x 317.988pt>
+File: imagenes/clock.png Graphic file (type png)
+<use imagenes/clock.png>
+Package pdftex.def Info: imagenes/clock.png  used on input line 206.
+(pdftex.def)             Requested size: 345.0pt x 187.21826pt.
+LaTeX Info: Redefining \. on input line 209.
+LaTeX Info: Redefining \% on input line 209.
+ [21 <./imagenes/default.png> <./imagenes/io.png>]
+<imagenes/fp.png, id=115, 896.75024pt x 456.5055pt>
+File: imagenes/fp.png Graphic file (type png)
+<use imagenes/fp.png>
+Package pdftex.def Info: imagenes/fp.png  used on input line 212.
+(pdftex.def)             Requested size: 345.0pt x 175.63326pt.
+<imagenes/ta.png, id=116, 781.7205pt x 180.675pt>
+File: imagenes/ta.png Graphic file (type png)
+<use imagenes/ta.png>
+Package pdftex.def Info: imagenes/ta.png  used on input line 218.
+(pdftex.def)             Requested size: 345.0pt x 79.73984pt.
+LaTeX Info: Redefining \. on input line 226.
+LaTeX Info: Redefining \% on input line 226.
+ [22 <./imagenes/clock.png> <./imagenes/fp.png> <./imagenes/ta.png>]) (capitulos/06_Conclusiones.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [23] [24
+
+]
+Cap\'{\i }tulo 6.
+) [25] (proyecto.bbl [26
+
+
+]
+Underfull \hbox (badness 1005) in paragraph at lines 4--7
+[]\OT1/cmr/m/n/10 Digilent.  Zy-bo fp-ga board re-fe-ren-ce ma-nual.  $\OT1/cmtt/m/n/10 https : / / reference .
+ []
+
+
+Underfull \hbox (badness 8170) in paragraph at lines 42--46
+[]\OT1/cmr/m/n/10 Xilinx.  Vi-va-do de-sign sui-te user gui-de : Using the vi-va-do
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 42--46
+\OT1/cmr/m/n/10 ide.  $\OT1/cmtt/m/n/10 https : / / www . xilinx . com / support / documentation / sw _ manuals /
+ []
+
+) [27] (proyecto.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+) ) 
+Here is how much of TeX's memory you used:
+ 5949 strings out of 480790
+ 86567 string characters out of 2907056
+ 349428 words of memory out of 3000000
+ 21829 multiletter control sequences out of 15000+200000
+ 536878 words of font info for 39 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,13n,45p,297b,501s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\eleni\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on proyecto.pdf (33 pages, 7977886 bytes).
+PDF statistics:
+ 173 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+

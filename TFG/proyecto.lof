@@ -1,1 +1,18 @@
 \babel@toc {spanish}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Arquitectura de una FPGA}}}{6}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces ZYBO Zynq-7000 Development Board}}{14}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Arquitectura Zynq AP SoC}}{15}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Vivado IDE}}{17}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Entorno Principal Vivado IDE}}{18}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \textit {Flow Navigator}}}{20}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \textit {Default Layout}}}{21}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces \textit {I/O Planning}}}{21}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces \textit {Clock Planning}}}{22}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces \textit {Floorplanning}}}{22}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces \textit {Timing Analysis}}}{22}%
+\addvspace {10\p@ }

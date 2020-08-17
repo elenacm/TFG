@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date             : Sat Aug 08 16:45:34 2020
+| Date             : Thu Aug 13 18:56:49 2020
 | Host             : LAPTOP-3I35GVHS running 64-bit major release  (build 9200)
 | Command          : report_power -file vga_top_power_routed.rpt -pb vga_top_power_summary_routed.pb -rpx vga_top_power_routed.rpx
 | Design           : vga_top
@@ -30,8 +30,8 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 0.219 |
-| Dynamic (W)              | 0.115 |
+| Total On-Chip Power (W)  | 0.221 |
+| Dynamic (W)              | 0.116 |
 | Device Static (W)        | 0.104 |
 | Effective TJA (C/W)      | 11.5  |
 | Max Ambient (C)          | 82.5  |
@@ -50,17 +50,17 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        8 |       --- |             --- |
-| Slice Logic    |     0.002 |      405 |       --- |             --- |
-|   LUT as Logic |     0.002 |      197 |     17600 |            1.12 |
+| Slice Logic    |     0.002 |      409 |       --- |             --- |
+|   LUT as Logic |     0.002 |      200 |     17600 |            1.14 |
 |   CARRY4       |    <0.001 |       38 |      4400 |            0.86 |
 |   Register     |    <0.001 |       90 |     35200 |            0.26 |
 |   BUFG         |    <0.001 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |        6 |       --- |             --- |
-| Signals        |     0.002 |      210 |       --- |             --- |
-| PLL            |     0.110 |        1 |         2 |           50.00 |
+| Signals        |     0.002 |      215 |       --- |             --- |
+| PLL            |     0.111 |        1 |         2 |           50.00 |
 | I/O            |    <0.001 |       10 |       100 |           10.00 |
 | Static Power   |     0.104 |          |           |                 |
-| Total          |     0.219 |          |           |                 |
+| Total          |     0.221 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -70,8 +70,8 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.019 |       0.015 |      0.004 |
-| Vccaux    |       1.800 |     0.066 |       0.055 |      0.011 |
+| Vccint    |       1.000 |     0.020 |       0.016 |      0.004 |
+| Vccaux    |       1.800 |     0.067 |       0.056 |      0.011 |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
@@ -134,10 +134,10 @@ Table of Contents
 | Clock                | Domain                      | Constraint (ns) |
 +----------------------+-----------------------------+-----------------+
 | CLOCK                | CLOCK                       |             8.0 |
-| clk_out1_clk_wiz_0   | PLL/inst/clk_out1_clk_wiz_0 |            32.0 |
-| clk_out1_clk_wiz_0_1 | PLL/inst/clk_out1_clk_wiz_0 |            32.0 |
-| clkfbout_clk_wiz_0   | PLL/inst/clkfbout_clk_wiz_0 |            32.0 |
-| clkfbout_clk_wiz_0_1 | PLL/inst/clkfbout_clk_wiz_0 |            32.0 |
+| clk_out1_clk_wiz_0   | PLL/inst/clk_out1_clk_wiz_0 |            20.0 |
+| clk_out1_clk_wiz_0_1 | PLL/inst/clk_out1_clk_wiz_0 |            20.0 |
+| clkfbout_clk_wiz_0   | PLL/inst/clkfbout_clk_wiz_0 |            40.0 |
+| clkfbout_clk_wiz_0_1 | PLL/inst/clkfbout_clk_wiz_0 |            40.0 |
 | sys_clk_pin          | CLOCK                       |             8.0 |
 +----------------------+-----------------------------+-----------------+
 
@@ -151,11 +151,11 @@ Table of Contents
 +----------+-----------+
 | Name     | Power (W) |
 +----------+-----------+
-| vga_top  |     0.115 |
-|   PELOTA |     0.003 |
-|   PLL    |     0.110 |
-|     inst |     0.110 |
-|   VGA    |    <0.001 |
+| vga_top  |     0.116 |
+|   PELOTA |     0.004 |
+|   PLL    |     0.111 |
+|     inst |     0.111 |
+|   VGA    |     0.001 |
 +----------+-----------+
 
 

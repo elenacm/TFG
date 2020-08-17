@@ -2,8 +2,8 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Sat Aug 08 16:43:33 2020
-# Process ID: 9876
+# Start of session at: Thu Aug 13 18:55:06 2020
+# Process ID: 8208
 # Current directory: C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1
 # Command line: vivado.exe -log vga_top.vds -mode batch -messageDb vivado.pb -notrace -source vga_top.tcl
 # Log file: C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1/vga_top.vds
@@ -15,13 +15,13 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 3268 
+INFO: Helper process launched with PID 6916 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 274.922 ; gain = 67.828
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 274.473 ; gain = 67.926
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'vga_top' [C:/Users/eleni/Documents/GitHub/TFG/Practica 2/vga_top.vhd:34]
-INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1/.Xil/Vivado-9876-LAPTOP-3I35GVHS/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'PLL' of component 'clk_wiz_0' [C:/Users/eleni/Documents/GitHub/TFG/Practica 2/vga_top.vhd:76]
-INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1/.Xil/Vivado-9876-LAPTOP-3I35GVHS/realtime/clk_wiz_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1/.Xil/Vivado-8208-LAPTOP-3I35GVHS/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'PLL' of component 'clk_wiz_0' [C:/Users/eleni/Documents/GitHub/TFG/Practica 2/vga_top.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1/.Xil/Vivado-8208-LAPTOP-3I35GVHS/realtime/clk_wiz_0_stub.vhdl:13]
 INFO: [Synth 8-3491] module 'controlador_vga_640_x_480_60' declared at 'C:/Users/eleni/Documents/GitHub/TFG/Practica 2/controlador_vga_640_x_480_60.vhd:16' bound to instance 'VGA' of component 'controlador_vga_640_x_480_60' [C:/Users/eleni/Documents/GitHub/TFG/Practica 2/vga_top.vhd:81]
 INFO: [Synth 8-638] synthesizing module 'controlador_vga_640_x_480_60' [C:/Users/eleni/Documents/GitHub/TFG/Practica 2/controlador_vga_640_x_480_60.vhd:31]
 INFO: [Synth 8-256] done synthesizing module 'controlador_vga_640_x_480_60' (1#1) [C:/Users/eleni/Documents/GitHub/TFG/Practica 2/controlador_vga_640_x_480_60.vhd:31]
@@ -45,7 +45,7 @@ WARNING: [Synth 8-3331] design vga_top has unconnected port VGA_B[2]
 WARNING: [Synth 8-3331] design vga_top has unconnected port VGA_B[1]
 WARNING: [Synth 8-3331] design vga_top has unconnected port VGA_B[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 312.332 ; gain = 105.238
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 311.883 ; gain = 105.336
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -55,7 +55,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 312.332 ; gain = 105.238
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 311.883 ; gain = 105.336
 ---------------------------------------------------------------------------------
 WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'clk_wiz_0' instantiated as 'PLL' [C:/Users/eleni/Documents/GitHub/TFG/Practica 2/vga_top.vhd:76]
 INFO: [Device 21-403] Loading part xc7z010clg400-1
@@ -63,10 +63,15 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1/.Xil/Vivado-9876-LAPTOP-3I35GVHS/dcp/clk_wiz_0_in_context.xdc] for cell 'PLL'
-Finished Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1/.Xil/Vivado-9876-LAPTOP-3I35GVHS/dcp/clk_wiz_0_in_context.xdc] for cell 'PLL'
+Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1/.Xil/Vivado-8208-LAPTOP-3I35GVHS/dcp/clk_wiz_0_in_context.xdc] for cell 'PLL'
+Finished Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1/.Xil/Vivado-8208-LAPTOP-3I35GVHS/dcp/clk_wiz_0_in_context.xdc] for cell 'PLL'
 Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'SegDigit[0]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'SegDigit[1]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'SegDigit[2]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'SegDigit[3]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:32]
 Finished Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/vga_top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vga_top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/vga_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
@@ -74,31 +79,31 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 611.102 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 610.738 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for CLOCK. (constraint file  {C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1/.Xil/Vivado-9876-LAPTOP-3I35GVHS/dcp/clk_wiz_0_in_context.xdc}, line 3).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for CLOCK. (constraint file  {C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1/.Xil/Vivado-9876-LAPTOP-3I35GVHS/dcp/clk_wiz_0_in_context.xdc}, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for CLOCK. (constraint file  {C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1/.Xil/Vivado-8208-LAPTOP-3I35GVHS/dcp/clk_wiz_0_in_context.xdc}, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLOCK. (constraint file  {C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica 2.runs/synth_1/.Xil/Vivado-8208-LAPTOP-3I35GVHS/dcp/clk_wiz_0_in_context.xdc}, line 4).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "Desplaza_Bola_Y" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "Desplaza_Bola_Y" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "Desplaza_Pala_izq_Y" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "Desplaza_Pala_der_Y" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -159,7 +164,7 @@ BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 611.102 ; gain = 404.008
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
@@ -177,9 +182,9 @@ WARNING: [Synth 8-3331] design vga_top has unconnected port VGA_B[2]
 WARNING: [Synth 8-3331] design vga_top has unconnected port VGA_B[1]
 WARNING: [Synth 8-3331] design vga_top has unconnected port VGA_B[0]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Parallel Reinference  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 610.738 ; gain = 404.191
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -286,9 +291,9 @@ WARNING: [Synth 8-3332] Sequential element (PELOTA/Bola_X_reg[0]) is unused and 
 WARNING: [Synth 8-3332] Sequential element (PELOTA/Bola_Y_reg[0]) is unused and will be removed from module vga_top.
 WARNING: [Synth 8-3332] Sequential element (PELOTA/Pala_izq_Y_reg[0]) is unused and will be removed from module vga_top.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 610.738 ; gain = 404.191
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -304,10 +309,10 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'PLL/clk_out1' to pin 'PLL/bbstub_clk_out1/O'
 INFO: [Synth 8-5820] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -319,16 +324,16 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 610.738 ; gain = 404.191
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -345,7 +350,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -358,7 +363,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -370,25 +375,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -409,11 +414,11 @@ Report Cell Usage:
 |2     |BUFG           |     1|
 |3     |CARRY4         |    38|
 |4     |LUT1           |     4|
-|5     |LUT2           |    70|
+|5     |LUT2           |    76|
 |6     |LUT3           |    22|
-|7     |LUT4           |    46|
+|7     |LUT4           |    45|
 |8     |LUT5           |    54|
-|9     |LUT6           |    74|
+|9     |LUT6           |    73|
 |10    |FDRE           |    90|
 |11    |IBUF           |     4|
 |12    |OBUF           |     5|
@@ -424,16 +429,16 @@ Report Instance Areas:
 +------+---------+-----------------------------+------+
 |      |Instance |Module                       |Cells |
 +------+---------+-----------------------------+------+
-|1     |top      |                             |   422|
+|1     |top      |                             |   426|
 |2     |  PELOTA |bola                         |   231|
-|3     |  VGA    |controlador_vga_640_x_480_60 |   167|
+|3     |  VGA    |controlador_vga_640_x_480_60 |   171|
 +------+---------+-----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 611.102 ; gain = 404.008
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:32 . Memory (MB): peak = 610.738 ; gain = 404.191
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 61 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 611.102 ; gain = 105.238
-Synthesis Optimization Complete : Time (s): cpu = 00:00:41 ; elapsed = 00:00:46 . Memory (MB): peak = 611.102 ; gain = 404.008
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 610.738 ; gain = 104.438
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 610.738 ; gain = 404.191
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 42 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -443,8 +448,8 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-76 Infos, 77 Warnings, 0 Critical Warnings and 0 Errors encountered.
+76 Infos, 82 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 611.102 ; gain = 404.008
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 611.102 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Sat Aug 08 16:44:22 2020...
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 610.738 ; gain = 404.191
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 610.738 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 13 18:55:41 2020...

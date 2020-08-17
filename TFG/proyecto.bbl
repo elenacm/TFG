@@ -22,10 +22,15 @@ Clive Maxfield.
 \newblock {\em FPGAs: instant access}.
 \newblock Elsevier, 2011.
 
-\bibitem{vivado_wiki}
+\bibitem{sun2012high}
+Yang Sun, Kiarash Amiri, Guohui Wang, Bei Yin, Joseph~R Cavallaro, and Tai Ly.
+\newblock High-level design tools for complex dsp applications.
+\newblock Elsevier, Waltham, MA, 2012.
+
+\bibitem{zynq}
 Wikipedia.
-\newblock Xilinx vivado.
-\newblock \url{https://en.wikipedia.org/wiki/Xilinx_Vivado}.
+\newblock Xilinx.
+\newblock \url{https://en.wikipedia.org/wiki/Xilinx}.
 
 \bibitem{fpga_xilinx}
 Xilinx.
@@ -38,5 +43,11 @@ Xilinx.
 \newblock Vivado design suite user guide : Using the vivado ide.
 \newblock
   \url{https://www.xilinx.com/support/documentation/sw_manuals/xilinx2016_2/ug893-vivado-ide.pdf}.
+
+\bibitem{students}
+Xilinx.
+\newblock Xup students.
+\newblock
+  \url{https://www.xilinx.com/support/university/students.html#overview}.
 
 \end{thebibliography}
