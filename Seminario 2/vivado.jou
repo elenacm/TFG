@@ -1,0 +1,107 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Aug 25 18:26:03 2020
+# Process ID: 9268
+# Current directory: C:/Users/eleni/Documents/GitHub/TFG/Seminario 2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23324 C:\Users\eleni\Documents\GitHub\TFG\Seminario 2\Seminario 2.xpr
+# Log file: C:/Users/eleni/Documents/GitHub/TFG/Seminario 2/vivado.log
+# Journal file: C:/Users/eleni/Documents/GitHub/TFG/Seminario 2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/eleni/Documents/GitHub/TFG/Seminario 2/Seminario 2.xpr}
+update_compile_order -fileset sources_1
+close_project
+create_project Proyecto_nuevo C:/Users/eleni/Desktop/Proyecto_nuevo -part xc7z010clg400-1
+set_property board_part digilentinc.com:zybo:part0:2.0 [current_project]
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+add_files -norecurse {{C:/Users/eleni/Desktop/DHD/Seminario 2/top.vhd} {C:/Users/eleni/Desktop/DHD/Seminario 2/Div_frec.vhd} {C:/Users/eleni/Desktop/DHD/Seminario 2/contador_4bits.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files {{C:/Users/eleni/Desktop/DHD/Seminario 2/Div_frec.vhd}}
+remove_files {{C:/Users/eleni/Desktop/DHD/Seminario 2/top.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+source contador_4bits.tcl
+restart
+add_force {/contador_4bits/Reset} -radix hex {0 0ns}
+add_force {/contador_4bits/Reloj} -radix bin {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 100 ns
+run 100 ns
+close_sim
+launch_runs synth_1
+wait_on_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+open_run impl_1
+add_files -fileset constrs_1 -norecurse {{C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc}}
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_design
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+close_design
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/contador_4bits.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/contador_4bits.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+close_hw
+add_files -norecurse {{C:/Users/eleni/Desktop/DHD/Seminario 2/top.vhd} {C:/Users/eleni/Desktop/DHD/Seminario 2/Div_frec.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/Top.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/Top.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+refresh_hw_device [lindex [get_hw_devices] 1]
+close_hw
+remove_files {{C:/Users/eleni/Desktop/DHD/Seminario 2/top.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+remove_files {{C:/Users/eleni/Desktop/DHD/Seminario 2/Div_frec.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files {{C:/Users/eleni/Desktop/DHD/Seminario 2/contador_4bits.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1

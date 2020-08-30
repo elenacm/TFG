@@ -1,0 +1,346 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Aug 25 18:26:03 2020
+# Process ID: 9268
+# Current directory: C:/Users/eleni/Documents/GitHub/TFG/Seminario 2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23324 C:\Users\eleni\Documents\GitHub\TFG\Seminario 2\Seminario 2.xpr
+# Log file: C:/Users/eleni/Documents/GitHub/TFG/Seminario 2/vivado.log
+# Journal file: C:/Users/eleni/Documents/GitHub/TFG/Seminario 2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/eleni/Documents/GitHub/TFG/Seminario 2/Seminario 2.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:11 . Memory (MB): peak = 832.227 ; gain = 181.945
+update_compile_order -fileset sources_1
+close_project
+create_project Proyecto_nuevo C:/Users/eleni/Desktop/Proyecto_nuevo -part xc7z010clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+set_property board_part digilentinc.com:zybo:part0:2.0 [current_project]
+set_property target_language VHDL [current_project]
+set_property simulator_language VHDL [current_project]
+add_files -norecurse {{C:/Users/eleni/Desktop/DHD/Seminario 2/top.vhd} {C:/Users/eleni/Desktop/DHD/Seminario 2/Div_frec.vhd} {C:/Users/eleni/Desktop/DHD/Seminario 2/contador_4bits.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files {{C:/Users/eleni/Desktop/DHD/Seminario 2/Div_frec.vhd}}
+remove_files {{C:/Users/eleni/Desktop/DHD/Seminario 2/top.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'contador_4bits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj contador_4bits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Desktop/DHD/Seminario 2/contador_4bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity contador_4bits
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto b0d4704629814b2c90ee56c2b82c700c --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot contador_4bits_behav xil_defaultlib.contador_4bits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture funcional of entity xil_defaultlib.contador_4bits
+Built simulation snapshot contador_4bits_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.sim/sim_1/behav/xsim.dir/contador_4bits_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Aug 25 18:31:03 2020...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 832.227 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "contador_4bits_behav -key {Behavioral:sim_1:Functional:contador_4bits} -tclbatch {contador_4bits.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source contador_4bits.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'contador_4bits_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 832.227 ; gain = 0.000
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/contador_4bits/Reset} -radix hex {0 0ns}
+add_force {/contador_4bits/Reloj} -radix bin {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 100 ns
+run 100 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_runs synth_1
+[Tue Aug 25 18:37:26 2020] Launched synth_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/synth_1/runme.log
+launch_runs impl_1
+[Tue Aug 25 18:37:57 2020] Launched impl_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1020.785 ; gain = 0.012
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 1020.785 ; gain = 0.012
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1115.609 ; gain = 254.840
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+add_files -fileset constrs_1 -norecurse {{C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc}}
+reset_run synth_1
+launch_runs synth_1
+[Tue Aug 25 18:41:36 2020] Launched synth_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z010clg400-1
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'KEY[0]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'KEY[1]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'KEY[2]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'KEY[3]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[0]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:131]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[1]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:132]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:132]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[2]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:133]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:133]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[3]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:134]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:134]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_R[4]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:135]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:135]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[0]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:136]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:136]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[1]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:137]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:137]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[2]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:138]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:138]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[3]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:139]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:139]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[4]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:140]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:140]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_G[5]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:141]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:141]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[0]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:142]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:142]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[1]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:143]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:143]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[2]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:144]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:144]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[3]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:145]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:145]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_B[4]'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:146]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:146]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_HS'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'VGA_VS'. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc:148]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+launch_runs impl_1
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.109 . Memory (MB): peak = 1516.930 ; gain = 0.000
+[Tue Aug 25 18:45:20 2020] Launched impl_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/Seminario 2/.Xil/Vivado-9268-LAPTOP-3I35GVHS/dcp/contador_4bits.xdc]
+Finished Parsing XDC File [C:/Users/eleni/Documents/GitHub/TFG/Seminario 2/.Xil/Vivado-9268-LAPTOP-3I35GVHS/dcp/contador_4bits.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1516.930 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1516.930 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+launch_runs impl_1 -to_step write_bitstream
+[Tue Aug 25 18:51:00 2020] Launched impl_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+[Tue Aug 25 18:51:32 2020] Launched impl_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+[Tue Aug 25 18:52:46 2020] Launched impl_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1
+[Tue Aug 25 18:55:51 2020] Launched synth_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/synth_1/runme.log
+[Tue Aug 25 18:55:51 2020] Launched impl_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/runme.log
+close_design
+launch_runs impl_1 -to_step write_bitstream
+[Tue Aug 25 18:57:20 2020] Launched impl_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:57:03
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1520.492 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279539808A
+set_property PROGRAM.FILE {C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/contador_4bits.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/contador_4bits.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279539808A
+close_hw
+add_files -norecurse {{C:/Users/eleni/Desktop/DHD/Seminario 2/top.vhd} {C:/Users/eleni/Desktop/DHD/Seminario 2/Div_frec.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1
+[Tue Aug 25 19:13:12 2020] Launched synth_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/synth_1/runme.log
+[Tue Aug 25 19:13:12 2020] Launched impl_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1
+[Tue Aug 25 19:17:50 2020] Launched synth_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/synth_1/runme.log
+[Tue Aug 25 19:17:50 2020] Launched impl_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue Aug 25 19:21:30 2020] Launched impl_1...
+Run output will be captured here: C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:57:03
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210279539808A
+set_property PROGRAM.FILE {C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/Top.bit} [lindex [get_hw_devices] 1]
+current_hw_device [lindex [get_hw_devices] 1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1435] Device xc7z010 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices] 1]
+set_property PROGRAM.FILE {C:/Users/eleni/Desktop/Proyecto_nuevo/Proyecto_nuevo.runs/impl_1/Top.bit} [lindex [get_hw_devices] 1]
+program_hw_devices [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 1]
+INFO: [Labtools 27-1434] Device xc7z010 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210279539808A
+close_hw
+remove_files {{C:/Users/eleni/Desktop/DHD/Seminario 2/top.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+remove_files {{C:/Users/eleni/Desktop/DHD/Seminario 2/Div_frec.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files {{C:/Users/eleni/Desktop/DHD/Seminario 2/contador_4bits.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 25 19:25:40 2020...

@@ -6,13 +6,13 @@
 Las FPGAs (\textit{Field Programmable Gate Arrays}), son dispositivos semiconductores basados en matrices de bloques lógicos configurables
 (\textbf{CLB}) que están conectados mediante interconexiones programables \cite{fpga_xilinx}. 
 
-Los \textbf{CLB} constan de celdas lógicas llamadas ``\textit{Slices}'', formadas por LUTs (\textit{tablas de consulta}), flip-flops y 
+Los bloques lógicos configurables en las FPGAs basadas en celdas SRAM incluyen LUTs (\textit{tablas de consulta}), flip-flops y 
 multiplexores de entrada y salida (Figura \ref{arqFPGA}). Una LUT almacena una lista de salidas lógicas para cualquier combinación de 
-entradas. 
+entradas.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width = 1\textwidth]{imagenes/arqFPGA.png}
+    \includegraphics[width = 0.5\textwidth]{imagenes/arqFPGA.png}
     \caption{\textit{Arquitectura de una FPGA}}\label{arqFPGA}
 \end{figure}
 
@@ -20,8 +20,20 @@ Estas FPGAs pueden ser reprogramadas para  algún trabajo específico o para cam
 fabricación. Algunas pueden ser programadas una sola vez mientras que otras pueden ser reprogramadas una y otra vez. A estos 
 dispositivos que son programados una única vez son referidos como \textbf{OTP} (\textit{one-time programmable}).
 
-\textit{Field Programmable}, se refiere al hecho de que su programación se hace "\textit{en el campo}" a diferencia de otros dispositivos 
+\textit{Field Programmable}, se refiere al hecho de que su programación se hace ``\textit{en el campo}'' a diferencia de otros dispositivos 
 que su funcionalidad está programada por el fabricante \cite{maxfield1}.
+
+Las tres principales tecnologías usadas para programar una FPGA son: \textbf{Antifusible}, \textbf{SRAM}, \textbf{Flash}
+
+La tecnología \textbf{Antifusible} es una tecnología no reprogramable, por lo tanto son \textit{OTP}. Son dispositivos que permiten establecer 
+conexiones entre distintas capas de metal. No es volátil y además la conexión entre los bloques lógicos tiene un retardo muy reducido, por lo 
+que el rendimiento es alto. Sin embargo, las FPGAs antifusibles necesitan un proceso de fabricación específico y por lo tanto es caro. 
+
+La tecnología \textbf{SRAM} es una tecnología reprogramable con una reprogramación muy rápida. Sin embargo, las FPGAs basadas en esta tecnología 
+con volátiles, lo que significa que los datos de configuración del dispositivo se perderán cuando se desconecte la energía. 
+
+La tecnología \textbf{Flash} es reprogramable como la \textbf{SRAM} y además es no volátil como la \textbf{Antifusible}. Utiliza menos potencia 
+que la \textbf{Antifusible} con un proceso de fabricación como la \textbf{SRAM}.
 
 Hay muchos tipos diferentes de circuitos integrados digitales, entre los que destacamos \textbf{PLDs} (\textit{Programmable Logic Devices}), 
 \textbf{ASICs} (\textit{Application-Specific Integrated circuits}), \textbf{ASSPs} (\textit{Application-Specific Standard Parts}) y \textbf{FPGAs}.
@@ -42,9 +54,11 @@ podían ser realizadas usando \textbf{ASICs}.
 El coste de un diseño de \textbf{FPGA} es mucho menor que el de uno de un \textbf{ASIC}. Al mismo tiempo, los cambios de diseño implementados 
 son más fáciles en \textbf{FPGAs} y el tiempo de comercialización es más rápido \cite{maxfield2}.
 
-Las FPGAs \textbf{SoC}(\textit{System-on-chip}) tienen una gran capacidad de procesamiento para adaptarse a diferentes aplicaciones. Un SoC 
-de bajo costo y consumo se puede enfocar en aplicaciones de gran volumen como tarjetas de procesamiento de vídeo o protocolo de puentes. Sin 
-embargo, hay otros SoCs que se enfocan en aplicaciones de alto rendimiento en comunicaciones o computación de alto rendimiento.
+Las FPGAs \textbf{SoC}(\textit{System-on-chip}, que es un circuito integrado que tiene todos los componentes necesarios para un sistema electrónico.
+Además de la lógica genérica configurable incluyen empotrados en hardware uno o varios procesadores, memoria DDR, interfaces para buses 
+estándar, interfaces de comunicaciones, e incluso unidades de procesamiento gráfico.) tienen una gran capacidad de procesamiento para 
+adaptarse a diferentes aplicaciones. Un SoC de bajo costo y consumo se puede utilizar en aplicaciones como tarjetas de procesamiento de 
+vídeo. Sin embargo, hay otros SoCs que se utilizan en aplicaciones de alto rendimiento en comunicaciones o computación de alto rendimiento.
 
 A mediados del año 1980 llegaron las FPGAs, que eran usadas para implementar lógicas simples, máquinas de estados con una complejidad media 
 y tareas de procesamiento de datos. A principios de los 90s, el mercado en el que se vendían se extendió al área de las telecomunicaciones 
@@ -75,16 +89,53 @@ usadas para implementar casi cualquier cosa en distintos ámbitos como por ejemp
     \item \textbf{Seguridad}
 \end{itemize}
 
-\section{Niveles de síntesis automática}  
+\section{Niveles de síntesis automática}
+La metodología es un concepto abstracto referido a un conjunto de procesos que relacionan entre sí los niveles de complejidad y abstracción 
+(\textit{funcional o de comportamiento}, \textit{arquitectural o transferencia de registros}, \textit{lógico o de puertas} y 
+\textit{físico}), por los que pasa el diseño de un circuito \cite{teres1997vhdl}.
 
-Una de las características principales de un lenguaje de descripción hardware es que a partir de una descripción RTL se puede generar un 
+Los niveles de abstracción son:
+
+\begin{itemize}
+    \item \textbf{Funcional o de comportamiento}: Se indica el comportamiento del circuito como una relación funcional entre las entradas 
+    y salidas, sin tener en cuenta la implementación.
+    \item \textbf{Arquitectural o de transferencia de resgistros}: Se realiza una partición de bloques funcionales y se planifican las 
+    acciones que se vayan a hacer. 
+    \item \textbf{Lógico o de puertas}: Componentes expresados como ecuaciones lógicas o puertas y elementos de una biblioteca genérica o 
+    específica de una tecnología.
+    \item \textbf{Físico}
+\end{itemize}
+
+En general, establecer una metodología o flujo de diseño consiste en definir las distintas etapas por los que pasarán los distintos niveles 
+de abstracción y fijar cómo pasar de unos niveles de abstracción a otros usando procesos manuales o automáticos de:
+
+\begin{itemize}
+    \item \textbf{Síntesis}: Pasar descripciones de un nivel de abstracción a otro con mayor detalle (por ejemplo, de una descripción RT a 
+    puertas, o de puertas a física).
+    \item \textbf{Análisis}: Extraer información de un descripción para verificar prestaciones o para validar restricciones en un nivel 
+    de abstracción superior.
+    \item \textbf{Verificación / Simulación}: Validar las descripciones de cada etapa.
+\end{itemize}
+
+Para la realización del flujo de diseño, se puede seguir una evolución ``\textit{Top-Down}'' empezando por la idea de la implementación 
+o se puede seguir una evolución ``\textit{Bottom-Up}'' comenzando por el nivel físico hasta llegar al funcional.
+
+El diseño ``\textit{Top-Down}'' consiste en coger una idea con un alto nivel de abstracción y partiendo de ella, implementarla y si es necesario 
+incrementar el nivel de detalle. Con este diseño se consigue una mayor adecuación a las especificaciones y requisitos.
+
+El diseño ``\textit{Bottom-Up}'' consiste en la descripción del circuito con componentes que se pueden agrupar en módulos hasta llegar al 
+sistema completo que se desea. Este diseño está condicionado por los componentes del diseño que están disponibles.
+
+PONER LO DE LOS LENGUAJES VHDL Y VERILOG--------------------------------------------------------------------------
+
+Una de las características principales de un lenguaje de descripción hardware es que a partir de una descripción se puede generar un 
 circuito físico. La síntesis es el paso de un nivel de descripción a uno de nivel inferior.
 
 La síntesis física consiste en la ubicación, es decir, decidir dónde colocar todos elementos lógicos, y en el enrutamiento, en el que se 
 decide cómo se interconectan los elementos en la FPGA.
 
 La síntesis RT-lógica es un proceso en el se crea un diseño RTL (\textit{Register-Transfer Level}), que es una abstracción del diseño 
-en el que se modela el circuito digital, y luego esa representación RTL es convertida a una mezcla de registros y ecuaciones 
+en el que se modela el circuito digital, y luego esa representación RTL es convertida a un conjunto de registros y ecuaciones 
 booleanas equivalentes. 
 
 La principal diferencia entre síntesis RT y síntesis de alto nivel es que la primera parte de una descripción en la que de forma 
@@ -92,13 +143,19 @@ explícita se especifican las operaciones que deben realizarse en cada ciclo de 
 en ciclos de reloj se realiza de forma automática en la segunda.
 
 La síntesis de alto nivel une hardware y software de manera que los diseñadores hardware pueden trabajar con un alto nivel de abstracción 
-y los desarrolladores software pueden acelerar las pas partes computacionalmente complejas de sus algoritmos en una FPGA. 
+y los desarrolladores software pueden acelerar partes computacionalmente complejas de sus algoritmos en una FPGA. 
 
 El uso de una metodología de diseño de síntesis de alto nivel permite desarrollar algoritmos con respecto a la implementación ya que 
 consume tiempo de desarrollo, validar el correcto funcionamiento de un diseño de forma más rápida que con lenguajes de descripción 
 hardware tradicionales o crear implementaciones hardware de alto rendimiento
 
 \section{Plataformas de desarrollo} 
+
+\subsection{Principales fabricantes de FPGAs}
+
+\subsection{Herrramientas software de desarrollo}
+
+\subsection{Plataformas de propósito académico}
 
 Actualmente hay muchas empresas que fabrican FPGAs, pero en el top 5 se pueden encontrar \textit{Xilinx}, \textit{Altera}, 
 \textit{Lattice Semiconductor}, \textit{Microsemi (antiguo Actel)} y \textit{QuickLogic}. Tanto Xilinx como Altera ocupan un 89\% 
@@ -157,4 +214,7 @@ Las plataformas de desarrollo con propósito académico que comercializa Xilinx 
 \section{Estructura de la memoria} 
  
  
- 
+
+%Los \textbf{CLB} constan de celdas lógicas llamadas ``\textit{Slices}'', formadas por LUTs (\textit{tablas de consulta}), flip-flops y 
+%multiplexores de entrada y salida (Figura \ref{arqFPGA}). Una LUT almacena una lista de salidas lógicas para cualquier combinación de 
+%entradas. ------ Primer comentario corrección 19/08/2020

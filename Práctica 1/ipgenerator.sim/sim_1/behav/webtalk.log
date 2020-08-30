@@ -2,12 +2,17 @@
 # Webtalk v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Sun Aug 02 15:26:37 2020
-# Process ID: 6048
-# Current directory: C:/Users/eleni/Desktop/project_1/ipgenerator/ipgenerator.sim/sim_1/behav
-# Command line: wbtcv.exe -mode batch -source C:/Users/eleni/Desktop/project_1/ipgenerator/ipgenerator.sim/sim_1/behav/xsim.dir/my_scomp_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: C:/Users/eleni/Desktop/project_1/ipgenerator/ipgenerator.sim/sim_1/behav/webtalk.log
-# Journal file: C:/Users/eleni/Desktop/project_1/ipgenerator/ipgenerator.sim/sim_1/behav\webtalk.jou
+# Start of session at: Tue Aug 25 21:13:34 2020
+# Process ID: 11108
+# Current directory: C:/Users/eleni/Documents/GitHub/TFG/Práctica 1/ipgenerator.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source C:/Users/eleni/Documents/GitHub/TFG/Práctica 1/ipgenerator.sim/sim_1/behav/xsim.dir/my_scomp_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/eleni/Documents/GitHub/TFG/Práctica 1/ipgenerator.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/eleni/Documents/GitHub/TFG/Práctica 1/ipgenerator.sim/sim_1/behav\webtalk.jou
 #-----------------------------------------------------------
-source C:/Users/eleni/Desktop/project_1/ipgenerator/ipgenerator.sim/sim_1/behav/xsim.dir/my_scomp_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Sun Aug 02 15:26:37 2020...
+source C:/Users/eleni/Documents/GitHub/TFG/Práctica -notrace
+invalid command name "******"
+ambiguous command name "******": after append apply array auto_execok auto_import auto_load auto_load_index auto_qualify binary break case catch cd chan clock close close_msg_db cmd concat config_webtalk continue create_msg_db create_property dict encoding eof error eval exec exit expr fblocked fconfigure fcopy file fileevent flush for foreach format get_msg_config get_param get_property gets glob global help history if incr info interp join lappend lassign lindex linsert lint_files list list_param list_property list_property_value llength load load_msg_db lrange lrepeat lreplace lreverse lsearch lset lsort namespace open package pid proc puts pwd read regexp register_proc regsub rename report_environment report_param report_property reset_msg_config reset_msg_count reset_param reset_property return scan seek send_msg_id set set_msg_config set_param set_property socket source split string subst switch tclLog tell time trace unknown unload unregister_proc unset update uplevel upvar variable version vwait webtalk_add_data webtalk_dump_data webtalk_init webtalk_register_client webtalk_terminate webtalk_transmit while
+    while executing
+"****** Webtalk v2016.2 (64-bit)"
+    (file "C:/Users/eleni/Documents/GitHub/TFG/Práctica" line 2)
+INFO: [Common 17-206] Exiting Webtalk at Tue Aug 25 21:13:34 2020...

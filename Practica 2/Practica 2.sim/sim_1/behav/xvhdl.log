@@ -1,0 +1,7 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_VCOMP.vhd" into library xpm
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Documents/GitHub/TFG/Practica 2/controlador_vga_640_x_480_60.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity controlador_vga_640_x_480_60
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Documents/GitHub/TFG/Practica 2/bola.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity bola
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/eleni/Documents/GitHub/TFG/Practica 2/vga_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity vga_top

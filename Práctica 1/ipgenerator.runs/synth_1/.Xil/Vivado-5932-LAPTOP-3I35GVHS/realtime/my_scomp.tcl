@@ -14,7 +14,7 @@ set rt::rc [catch {
     set rt::cmdEcho 0
     rt::set_parameter writeXmsg true
     rt::set_parameter enableParallelHelperSpawn true
-    set ::env(RT_TMP) "C:/Users/eleni/Documents/GitHub/TFG/Práctica 1/ipgenerator.runs/synth_1/.Xil/Vivado-17184-LAPTOP-3I35GVHS/realtime/tmp"
+    set ::env(RT_TMP) "C:/Users/eleni/Documents/GitHub/TFG/Práctica 1/ipgenerator.runs/synth_1/.Xil/Vivado-5932-LAPTOP-3I35GVHS/realtime/tmp"
     if { [ info exists ::env(RT_TMP) ] } {
       file delete -force $::env(RT_TMP)
       file mkdir $::env(RT_TMP)
@@ -64,7 +64,7 @@ set rt::rc [catch {
     rt::set_parameter rstSrlDepthThreshold 4
 # MODE: 
     rt::set_parameter webTalkPath {}
-    rt::set_parameter enableSplitFlowPath "C:/Users/eleni/Documents/GitHub/TFG/Práctica 1/ipgenerator.runs/synth_1/.Xil/Vivado-17184-LAPTOP-3I35GVHS/"
+    rt::set_parameter enableSplitFlowPath "C:/Users/eleni/Documents/GitHub/TFG/Práctica 1/ipgenerator.runs/synth_1/.Xil/Vivado-5932-LAPTOP-3I35GVHS/"
     set ok_to_delete_rt_tmp true 
     if { [rt::get_parameter parallelDebug] } { 
        set ok_to_delete_rt_tmp false 

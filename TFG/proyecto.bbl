@@ -1,9 +1,14 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{manual_zybo}
 Digilent.
 \newblock Zybo fpga board reference manual.
 \newblock \url{https://reference.digilentinc.com/_media/zybo:zybo_rm.pdf}.
+
+\bibitem{hamblen2007rapid}
+James~O Hamblen, Tyson~S Hall, and Michael~D Furman.
+\newblock {\em Rapid prototyping of digital systems: SOPC edition}.
+\newblock Springer Science \& Business Media, 2007.
 
 \bibitem{fpga_clive}
 Clive Maxfield.
@@ -22,21 +27,49 @@ Clive Maxfield.
 \newblock {\em FPGAs: instant access}.
 \newblock Elsevier, 2011.
 
+\bibitem{smith2010fpgas}
+Gina Smith.
+\newblock {\em FPGAs 101: Everything you need to know to get started}.
+\newblock Newnes, 2010.
+
 \bibitem{sun2012high}
 Yang Sun, Kiarash Amiri, Guohui Wang, Bei Yin, Joseph~R Cavallaro, and Tai Ly.
 \newblock High-level design tools for complex dsp applications.
 \newblock Elsevier, Waltham, MA, 2012.
+
+\bibitem{teres1997vhdl}
+L~Ter{\'e}s, Y~Torroja, S~Olcoz, and E~Villar.
+\newblock Vhdl lenguaje est{\'a}ndar de dise{\~n}o electr{\'o}nico. editorial
+  mc graw hill, 1997.
 
 \bibitem{zynq}
 Wikipedia.
 \newblock Xilinx.
 \newblock \url{https://en.wikipedia.org/wiki/Xilinx}.
 
+\bibitem{memoria}
+Xilinx.
+\newblock Block memory generator v8.4 logicore ip product guide.
+\newblock
+  \url{https://www.xilinx.com/support/documentation/ip_documentation/blk_mem_gen/v8_4/pg058-blk-mem-gen.pdf}.
+
+\bibitem{pll}
+Xilinx.
+\newblock Clocking wizard v6.0 logicore ip product guide.
+\newblock
+  \url{https://www.xilinx.com/support/documentation/ip_documentation/clk_wiz/v6_0/pg065-clk-wiz.pdf}.
+
 \bibitem{fpga_xilinx}
 Xilinx.
 \newblock Field programmable gate array (fpga).
 \newblock
   \url{https://www.xilinx.com/products/silicon-devices/fpga/what-is-an-fpga.html}.
+
+\bibitem{ip}
+Xilinx.
+\newblock Vivado design suite user guide : Designing with ip.
+\newblock
+  \url{https://www.xilinx.com/support/documentation/sw_manuals/xilinx2019_2/ug896-vivado-ip.pdf}.
 
 \bibitem{vivadoIDE}
 Xilinx.

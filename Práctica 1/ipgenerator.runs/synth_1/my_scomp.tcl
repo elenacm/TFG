@@ -32,9 +32,6 @@ read_vhdl -library xil_defaultlib {
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/eleni/Documents/GitHub/TFG/XDC master/ZYBO_Master.xdc}}]
-
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 

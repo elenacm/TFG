@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xpm  "C:/Xilinx/Vivado/2016.2/data/ip/xpm/xpm_VCOMP.vhd"
+vhdl xil_defaultlib  "../../../controlador_vga_640_x_480_60.vhd"
+vhdl xil_defaultlib  "../../../bola.vhd"
+vhdl xil_defaultlib  "../../../vga_top.vhd"
+
+# Do not sort compile order
+nosort
