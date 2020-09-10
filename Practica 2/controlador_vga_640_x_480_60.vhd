@@ -32,33 +32,33 @@ ARCHITECTURE  rtl OF controlador_vga_640_x_480_60 IS
 
 -- Especificacione temporales VGA 640 x 480 pixels (60 Hz), 25M pixels/s
 -- Sincronización horizontal (en número de pixels/línea)
---  CONSTANT h_a: integer := 96; -- Retorno horizontal
---  CONSTANT h_b: integer := 48; -- "Back porch" horizontal (Margen izquierdo)
---  CONSTANT h_c: integer := 640; -- �?rea de visualización horizontal 
---  CONSTANT h_d: integer := 16; -- "Front porch" horizontal (Margen derecho)  
---  CONSTANT h_total : integer := h_a + h_b + h_c + h_d;  
+  CONSTANT h_a: integer := 96; -- Retorno horizontal
+  CONSTANT h_b: integer := 48; -- "Back porch" horizontal (Margen izquierdo)
+  CONSTANT h_c: integer := 640; -- �?rea de visualización horizontal 
+  CONSTANT h_d: integer := 16; -- "Front porch" horizontal (Margen derecho)  
+  CONSTANT h_total : integer := h_a + h_b + h_c + h_d;  
    
 -- Sincronización Vertical (en número de líneas/pantalla)  
---  CONSTANT v_a: integer := 2; -- Retorno vertical
---  CONSTANT v_b: integer := 33; -- "Back porch" vertical
---  CONSTANT v_c: integer := 480; -- �?rea de visualización vertical 
---  CONSTANT v_d: integer := 10; -- "Front porch" vertical 
---  CONSTANT v_total : integer := v_a + v_b + v_c + v_d;  
+  CONSTANT v_a: integer := 2; -- Retorno vertical
+  CONSTANT v_b: integer := 33; -- "Back porch" vertical
+  CONSTANT v_c: integer := 480; -- �?rea de visualización vertical 
+  CONSTANT v_d: integer := 10; -- "Front porch" vertical 
+  CONSTANT v_total : integer := v_a + v_b + v_c + v_d;  
   
 -- Especificacione temporales VGA 800 x 600 pixels (60 Hz), 40M pixels/s
 -- Sincronización horizontal (en número de pixels/línea)
-    CONSTANT h_a: integer := 128; -- Retorno horizontal
-    CONSTANT h_b: integer := 88; -- "Back porch" horizontal (Margen izquierdo)
-    CONSTANT h_c: integer := 800; -- �?rea de visualización horizontal 
-    CONSTANT h_d: integer := 40; -- "Front porch" horizontal (Margen derecho)  
-    CONSTANT h_total : integer := h_a + h_b + h_c + h_d;  
+--    CONSTANT h_a: integer := 128; -- Retorno horizontal
+--    CONSTANT h_b: integer := 88; -- "Back porch" horizontal (Margen izquierdo)
+--    CONSTANT h_c: integer := 800; -- �?rea de visualización horizontal 
+--    CONSTANT h_d: integer := 40; -- "Front porch" horizontal (Margen derecho)  
+--    CONSTANT h_total : integer := h_a + h_b + h_c + h_d;  
      
   -- Sincronización Vertical (en número de líneas/pantalla)  
-    CONSTANT v_a: integer := 4; -- Retorno vertical
-    CONSTANT v_b: integer := 23; -- "Back porch" vertical
-    CONSTANT v_c: integer := 600; -- �?rea de visualización vertical 
-    CONSTANT v_d: integer := 1; -- "Front porch" vertical 
-    CONSTANT v_total : integer := v_a + v_b + v_c + v_d; 
+--    CONSTANT v_a: integer := 4; -- Retorno vertical
+--    CONSTANT v_b: integer := 23; -- "Back porch" vertical
+--    CONSTANT v_c: integer := 600; -- �?rea de visualización vertical 
+--    CONSTANT v_d: integer := 1; -- "Front porch" vertical 
+--    CONSTANT v_total : integer := v_a + v_b + v_c + v_d; 
  
     
 	SIGNAL hs, vs : STD_LOGIC;

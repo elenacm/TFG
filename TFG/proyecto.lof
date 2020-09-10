@@ -1,26 +1,35 @@
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \textit {Arquitectura de una FPGA \cite {arquitectura}}}}{1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Arquitectura de una FPGA}}}{5}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textit {Arquitectura Zynq-7000 \cite {zynq7000}}}}{14}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textit {ZYBO Zynq-7000 Development Board \cite {manual_zybo}}}}{17}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textit {Vivado IDE}}}{19}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textit {Entorno Principal Vivado IDE}}}{20}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \textit {Flow Navigator}}}{21}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textit {Default Layout}}}{21}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \textit {I/O Planning}}}{22}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \textit {Floorplanning}}}{22}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \textit {Timing Analysis}}}{22}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces \textit {Typical Xilinx FPGA Development Flow (Adaptada de \cite {smith2010fpgas})}}}{24}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces \textit {Analizador Temporal Implementación}}}{25}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces \textit {Hardware Manager}}}{29}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces \textit {IP Catalog}}}{30}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces \textit {Block Memory Generator}}}{34}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces \textit {Block Memory Generator Simulation (1)}}}{36}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces \textit {Block Memory Generator Simulation (2)}}}{36}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces \textit {Clocking Wizard}}}{37}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces \textit {Simulación Procesador (Parte 1)}}}{44}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces \textit {Simulación Procesador (Parte 2)}}}{44}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces \textit {Visualización Bola Cuadrada}}}{48}%
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces ZYBO Zynq-7000 Development Board}}{14}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Arquitectura Zynq AP SoC}}{15}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Vivado IDE}}{17}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Entorno Principal Vivado IDE}}{18}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces \textit {Flow Navigator}}}{19}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces \textit {Default Layout}}}{20}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces \textit {I/O Planning}}}{20}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces \textit {Clock Planning}}}{20}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces \textit {Floorplanning}}}{21}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces \textit {Timing Analysis}}}{21}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces \textit {Typical Xilinx FPGA Development Flow}}}{22}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces \textit {Hardware Manager}}}{26}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces \textit {IP Catalog}}}{27}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces \textit {Block Memory Generator}}}{28}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces \textit {Simulación Contador 4 Bits}}}{31}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces \textit {Netlist Resultante Synthesis}}}{31}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces \textit {Simulación Memoria RAM}}}{34}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces \textit {Simulación Procesador}}}{38}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \textit {Netlist RT}}}{52}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \textit {Simulación Funcional Contador 4 Bits}}}{53}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \textit {Netlist Resultante Synthesis}}}{53}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \textit {Simulación Funcional Post-Synthesis}}}{54}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \textit {Resumen Temporal Synthesis}}}{54}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \textit {Simulación Temporal Post-Synthesis}}}{55}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \textit {Resumen Temporal Implementation}}}{56}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces \textit {Simulación Funcional Post-Implementation}}}{56}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \textit {Simulación Temporal Post-Implementation}}}{56}%

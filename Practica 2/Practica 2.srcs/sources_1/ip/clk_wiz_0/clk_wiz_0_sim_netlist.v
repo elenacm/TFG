@@ -1,7 +1,7 @@
 // Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-// Date        : Thu Aug 13 18:54:39 2020
+// Date        : Mon Sep 07 10:22:31 2020
 // Host        : LAPTOP-3I35GVHS running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim {C:/Users/eleni/Documents/GitHub/TFG/Practica 2/Practica
 //               2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v}
@@ -69,11 +69,11 @@ module clk_wiz_0_clk_wiz_0_clk_wiz
   (* BOX_TYPE = "PRIMITIVE" *) 
   PLLE2_ADV #(
     .BANDWIDTH("OPTIMIZED"),
-    .CLKFBOUT_MULT(42),
+    .CLKFBOUT_MULT(33),
     .CLKFBOUT_PHASE(0.000000),
     .CLKIN1_PERIOD(10.000000),
     .CLKIN2_PERIOD(0.000000),
-    .CLKOUT0_DIVIDE(21),
+    .CLKOUT0_DIVIDE(33),
     .CLKOUT0_DUTY_CYCLE(0.500000),
     .CLKOUT0_PHASE(0.000000),
     .CLKOUT1_DIVIDE(1),
@@ -92,7 +92,7 @@ module clk_wiz_0_clk_wiz_0_clk_wiz
     .CLKOUT5_DUTY_CYCLE(0.500000),
     .CLKOUT5_PHASE(0.000000),
     .COMPENSATION("ZHOLD"),
-    .DIVCLK_DIVIDE(5),
+    .DIVCLK_DIVIDE(4),
     .IS_CLKINSEL_INVERTED(1'b0),
     .IS_PWRDWN_INVERTED(1'b0),
     .IS_RST_INVERTED(1'b0),

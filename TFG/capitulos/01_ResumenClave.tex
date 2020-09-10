@@ -1,2 +1,32 @@
-\chapter{Resumen y palabras clave}
+En este trabajo de fin de grado se ha realizado un estudio de una plataforma didáctica para desarrollo de sistemas basados en FPGAs de Xilinx. 
+Una \textbf{FPGA} es un dispositivo semiconductore basado en matrices de bloques lógicos configurables que están conectados mediante interconexiones programables. 
+Para programarlas existen tres principales tecnologías, la tecnología Antifusible que no es reprogramable, la tecnología SRAM que son reprogramables 
+pero con memorias son volátiles y la tecnología Flash que es reprogramable pero con memoria no volátil. 
 
+Actualmente las FPGAs pueden ser usadas para implementar sistemas en distintos ámbitos como por ejemplo Aeroespacial y defensa, 
+Centro de procesamiento de datos, Industria, Medicina o Comunicaciones.
+
+Dentro de los principales fabricantes de FPGAs, destaca \textbf{Xilinx} como el principal fabricante, seguido de Intel. Las características de sus dispositivos 
+y herramientas sofwtare de desarrollo son descritas en esta memoria.
+
+La tarjeta que se va a usar en este proyecto para el desarrollo de este proyecto es la tarjeta \textbf{ZYBO} que incluye una FPGA de la familia Zynq-7000 de Xilinx. Esta FPGA incluye 
+un sistema de procesamiento basado en cores ARM empotrados, memoria ``on-chip'', interfaces de memoria externa y lógica genérica basada en tecnología SRAM. La arquitectura 
+de esta FPGA permite la implementación de lógica personalizada para configurar módulos hardware específicos y la ejecución de software en los procesadores empotrados, los cuales 
+son explicados en el desarrollo de la memoria. 
+
+Xilinx ha sido una empresa pionera en la comercialización de herramientas de síntesis de alto nivel para describir componentes hardware a partir de descripciones C/C++ 
+con el módulo Vivado HLS que se ha utilizando en asignaturas de perfil avanzado. En este trabajo se plantea la migración a Vivado de prácticas de laboratorio 
+de un asignatura de carácter más básico donde se estudia el diseño de componentes a partir de herramientas de síntesis RT-lógica en las que se utilizan lenguajes 
+de descripción hardware tipo \textbf{VHDL} o \textbf{Verilog}. El lenguaje usado en este trabajo es VHDL.
+
+El objetivo de este trabajo es conocer la plataforma \textbf{Vivado} y realizar un flujo de diseño apoyándonos en la propia tarjeta. Vivado está preparado 
+para la síntesis y análisis de diseños HDL. Para ello, hay que conocer las posibilidades que tiene Vivado para cada fase del flujo de diseño. Así, se ha estudiado cómo 
+se implementan las diferentes fases del flujo de diseño con esta herramienta. A continuación, se ha realizado una descripción de los principales módulos que se van a 
+usar en la posterior realización de casos prácticos. Estos módulos son los más relevantes para la finalidad de este proyecto, existiendo muchos más. En concreto son, 
+un procesador didáctico, una memoria RAM, un módulo generador de reloj y un controlador VGA.
+
+Después, como casos prácticos se detallan un computador básico, en el que se usa el bloque de memoria RAM, y la visualización en pantalla de una bola moviéndose 
+en ella, en el que se usa el módulo generador de reloj y el controlador VGA.
+
+Por último se realiza la conclusión final del trabajo, donde se muestra si se han conseguido los objetivos planteados y además se incluyen otras vías futuras que se 
+pueden realizar a partir de este proyecto.

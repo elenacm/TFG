@@ -54,8 +54,7 @@ ARCHITECTURE funcional OF vga_top IS
         PORT(
             Red,Green,Blue : OUT std_logic;
             vs : IN std_logic;
-            pixel_Y, pixel_X : IN std_logic_vector(9 downto 0);
-            up1, down1, up2, down2 : IN std_logic
+            pixel_Y, pixel_X : IN std_logic_vector(9 downto 0)
         );
     END COMPONENT;
 	
@@ -98,11 +97,7 @@ PELOTA:	bola PORT MAP(
 			Blue => B_data,
 			vs => VS_nueva,
 			pixel_Y => pixel_y,
-			pixel_X => pixel_x,
-			up1 => key(0),
-			down1 => key(1),
-			up2 => key(2),
-			down2 => key(3)
+			pixel_X => pixel_x
 			);
 
 END funcional;

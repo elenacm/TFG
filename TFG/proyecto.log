@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.8)  30 AUG 2020 13:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.8)  8 SEP 2020 21:37
 entering extended mode
 **c:/Users/eleni/Documents/GitHub/TFG/TFG/proyecto.tex
 (c:/Users/eleni/Documents/GitHub/TFG/TFG/proyecto.tex
@@ -223,10 +223,6 @@ File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 ) (proyecto.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
-
-
-LaTeX Warning: Label `memoria' multiply defined.
-
 )
 \openout1 = `proyecto.aux'.
 
@@ -300,11 +296,56 @@ Overfull \hbox (25.5pt too wide) in paragraph at lines 26--39
 [1
 
 
-{C:/Users/eleni/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./imagenes/logo_ugr.jpg> <./imagenes/etsiit_logo.png>]) [2
+{C:/Users/eleni/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./imagenes/logo_ugr.jpg> <./imagenes/etsiit_logo.png>]) (prefacios/prefacio.tex [2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+(capitulos/01_ResumenClave.tex [3]) [4]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+(capitulos/02_ResumenInglés.tex) [5
+
+] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+[7
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+[8
+
+]) [9
+
+] [10
 
 ] (proyecto.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 31.
+
 )
 \tf@toc=\write3
 \openout3 = `proyecto.toc'.
@@ -322,334 +363,554 @@ LaTeX Info: Redefining \% on input line 1.
 
  [3] [4
 
-] (capitulos/01_ResumenClave.tex
+] (capitulos/03_MotivacionIntrosuccion.tex
 Cap\'{\i }tulo 1.
-) (capitulos/02_ResumenInglés.tex [1
-
-] [2
-
-]
-Cap\'{\i }tulo 2.
-) (capitulos/03_MotivacionIntrosuccion.tex [3] [4
-
-]
-Cap\'{\i }tulo 3.
-<imagenes/arqFPGA.png, id=42, 290.58563pt x 218.31563pt>
+<imagenes/arqFPGA.png, id=56, 387.4475pt x 339.2675pt>
 File: imagenes/arqFPGA.png Graphic file (type png)
 <use imagenes/arqFPGA.png>
 Package pdftex.def Info: imagenes/arqFPGA.png  used on input line 15.
-(pdftex.def)             Requested size: 172.5pt x 129.60126pt.
-[5 <./imagenes/arqFPGA.png>]
+(pdftex.def)             Requested size: 172.5pt x 151.04861pt.
+[1
+
+ <./imagenes/arqFPGA.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+ [2]
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
+ [3]
+LaTeX Info: Redefining \. on input line 138.
+LaTeX Info: Redefining \% on input line 138.
+ [4]
+LaTeX Info: Redefining \. on input line 172.
+LaTeX Info: Redefining \% on input line 172.
+ [5]
+LaTeX Info: Redefining \. on input line 207.
+LaTeX Info: Redefining \% on input line 207.
  [6]
-LaTeX Info: Redefining \. on input line 104.
-LaTeX Info: Redefining \% on input line 104.
+LaTeX Info: Redefining \. on input line 247.
+LaTeX Info: Redefining \% on input line 247.
  [7]
-LaTeX Info: Redefining \. on input line 141.
-LaTeX Info: Redefining \% on input line 141.
- [8]
-LaTeX Info: Redefining \. on input line 181.
-LaTeX Info: Redefining \% on input line 181.
- [9]) (capitulos/04_Objetivos.tex
+LaTeX Info: Redefining \. on input line 282.
+LaTeX Info: Redefining \% on input line 282.
+ [8]) (capitulos/04_Objetivos.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [10]
-Cap\'{\i }tulo 4.
-) (capitulos/05_Resolución.tex [11
-
-] [12
+ [9] [10
 
 ]
-Cap\'{\i }tulo 5.
+Cap\'{\i }tulo 2.
+) (capitulos/05_Resolución.tex [11] [12
+
+]
+Cap\'{\i }tulo 3.
 [13]
-<imagenes/zybo2.png, id=75, 1659.801pt x 1125.003pt>
+<imagenes/arqfamiliazynq.png, id=100, 504.6855pt x 399.894pt>
+File: imagenes/arqfamiliazynq.png Graphic file (type png)
+<use imagenes/arqfamiliazynq.png>
+Package pdftex.def Info: imagenes/arqfamiliazynq.png  used on input line 39.
+(pdftex.def)             Requested size: 345.0pt x 273.37656pt.
+
+Underfull \vbox (badness 1424) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 48.
+LaTeX Info: Redefining \% on input line 48.
+ [14 <./imagenes/arqfamiliazynq.png>]
+LaTeX Info: Redefining \. on input line 81.
+LaTeX Info: Redefining \% on input line 81.
+ [15]
+<imagenes/zybo2.png, id=108, 1659.801pt x 1125.003pt>
 File: imagenes/zybo2.png Graphic file (type png)
 <use imagenes/zybo2.png>
-Package pdftex.def Info: imagenes/zybo2.png  used on input line 41.
+Package pdftex.def Info: imagenes/zybo2.png  used on input line 106.
 (pdftex.def)             Requested size: 345.0pt x 233.83717pt.
-<imagenes/zynqapsoc.png, id=76, 492.03825pt x 525.76425pt>
-File: imagenes/zynqapsoc.png Graphic file (type png)
-<use imagenes/zynqapsoc.png>
-Package pdftex.def Info: imagenes/zynqapsoc.png  used on input line 52.
-(pdftex.def)             Requested size: 345.0pt x 368.65019pt.
-
-Underfull \vbox (badness 1881) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
- [14 <./imagenes/zybo2.png>]
-LaTeX Info: Redefining \. on input line 68.
-LaTeX Info: Redefining \% on input line 68.
- [15 <./imagenes/zynqapsoc.png>]
-Overfull \hbox (6.7582pt too wide) in paragraph at lines 81--82
-[]\OT1/cmr/m/n/10 Nos en-con-tra-mos con tres \OT1/cmr/bx/n/10 Co-nec-to-res de au-dio\OT1/cmr/m/n/10 , dos en-tra-das pa-ra microfono
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+ [16]
+Overfull \hbox (6.7582pt too wide) in paragraph at lines 117--118
+[]\OT1/cmr/m/n/10 Nos en-con-tra-mos con tres \OT1/cmr/bx/sc/10 Co-nec-to-res de au-dio\OT1/cmr/m/n/10 , dos en-tra-das pa-ra microfono
  []
 
-LaTeX Info: Redefining \. on input line 110.
-LaTeX Info: Redefining \% on input line 110.
-[16]
-<imagenes/Vivado1.png, id=87, 1149.69525pt x 607.67026pt>
+
+Underfull \vbox (badness 1264) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 134.
+LaTeX Info: Redefining \% on input line 134.
+ [17 <./imagenes/zybo2.png>]
+<imagenes/Vivado1.png, id=119, 1156.32pt x 608.2725pt>
 File: imagenes/Vivado1.png Graphic file (type png)
 <use imagenes/Vivado1.png>
-Package pdftex.def Info: imagenes/Vivado1.png  used on input line 122.
-(pdftex.def)             Requested size: 345.0pt x 182.34883pt.
-LaTeX Info: Redefining \. on input line 133.
-LaTeX Info: Redefining \% on input line 133.
- [17 <./imagenes/Vivado1.png>]
-<imagenes/vivado2.png, id=92, 1154.51324pt x 588.39825pt>
+Package pdftex.def Info: imagenes/Vivado1.png  used on input line 166.
+(pdftex.def)             Requested size: 345.0pt x 181.48076pt.
+LaTeX Info: Redefining \. on input line 169.
+LaTeX Info: Redefining \% on input line 169.
+ [18]
+<imagenes/vivado2.png, id=123, 1156.32pt x 620.3175pt>
 File: imagenes/vivado2.png Graphic file (type png)
 <use imagenes/vivado2.png>
-Package pdftex.def Info: imagenes/vivado2.png  used on input line 151.
-(pdftex.def)             Requested size: 345.0pt x 175.82951pt.
-LaTeX Info: Redefining \. on input line 171.
-LaTeX Info: Redefining \% on input line 171.
- [18 <./imagenes/vivado2.png>]
-<imagenes/flownavigator.png, id=98, 199.34476pt x 545.6385pt>
+Package pdftex.def Info: imagenes/vivado2.png  used on input line 195.
+(pdftex.def)             Requested size: 345.0pt x 185.07443pt.
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
+ [19 <./imagenes/Vivado1.png>]
+<imagenes/flownavigator.png, id=128, 202.356pt x 505.28775pt>
 File: imagenes/flownavigator.png Graphic file (type png)
 <use imagenes/flownavigator.png>
-Package pdftex.def Info: imagenes/flownavigator.png  used on input line 179.
-(pdftex.def)             Requested size: 103.50105pt x 283.29239pt.
-LaTeX Info: Redefining \. on input line 188.
-LaTeX Info: Redefining \% on input line 188.
- [19 <./imagenes/flownavigator.png>]
-<imagenes/default.png, id=104, 580.569pt x 318.59026pt>
+Package pdftex.def Info: imagenes/flownavigator.png  used on input line 213.
+(pdftex.def)             Requested size: 103.50105pt x 258.44893pt.
+
+Underfull \vbox (badness 7667) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 216.
+LaTeX Info: Redefining \% on input line 216.
+ [20 <./imagenes/vivado2.png>]
+<imagenes/default.png, id=133, 732.336pt x 396.2805pt>
 File: imagenes/default.png Graphic file (type png)
 <use imagenes/default.png>
-Package pdftex.def Info: imagenes/default.png  used on input line 194.
-(pdftex.def)             Requested size: 241.49895pt x 132.5236pt.
-<imagenes/io.png, id=105, 822.6735pt x 450.483pt>
+Package pdftex.def Info: imagenes/default.png  used on input line 227.
+(pdftex.def)             Requested size: 241.49895pt x 130.67621pt.
+<imagenes/io.png, id=134, 952.15726pt x 483.0045pt>
 File: imagenes/io.png Graphic file (type png)
 <use imagenes/io.png>
-Package pdftex.def Info: imagenes/io.png  used on input line 200.
-(pdftex.def)             Requested size: 241.49895pt x 132.23831pt.
-<imagenes/clock.png, id=106, 585.98924pt x 317.988pt>
-File: imagenes/clock.png Graphic file (type png)
-<use imagenes/clock.png>
-Package pdftex.def Info: imagenes/clock.png  used on input line 206.
-(pdftex.def)             Requested size: 241.49895pt x 131.05035pt.
-<imagenes/fp.png, id=107, 896.75024pt x 456.5055pt>
+Package pdftex.def Info: imagenes/io.png  used on input line 233.
+(pdftex.def)             Requested size: 345.0pt x 175.0091pt.
+LaTeX Info: Redefining \. on input line 236.
+LaTeX Info: Redefining \% on input line 236.
+ [21 <./imagenes/flownavigator.png> <./imagenes/default.png>]
+<imagenes/fp.png, id=140, 949.74825pt x 505.28775pt>
 File: imagenes/fp.png Graphic file (type png)
 <use imagenes/fp.png>
-Package pdftex.def Info: imagenes/fp.png  used on input line 212.
-(pdftex.def)             Requested size: 241.49895pt x 122.9377pt.
-LaTeX Info: Redefining \. on input line 215.
-LaTeX Info: Redefining \% on input line 215.
- [20 <./imagenes/default.png> <./imagenes/io.png> <./imagenes/clock.png>]
-<imagenes/ta.png, id=114, 781.7205pt x 180.675pt>
+Package pdftex.def Info: imagenes/fp.png  used on input line 239.
+(pdftex.def)             Requested size: 345.0pt x 183.54568pt.
+<imagenes/ta.png, id=141, 945.5325pt x 224.037pt>
 File: imagenes/ta.png Graphic file (type png)
 <use imagenes/ta.png>
-Package pdftex.def Info: imagenes/ta.png  used on input line 218.
-(pdftex.def)             Requested size: 345.0pt x 79.73984pt.
-
-Overfull \hbox (5.13945pt too wide) in paragraph at lines 244--246
+Package pdftex.def Info: imagenes/ta.png  used on input line 245.
+(pdftex.def)             Requested size: 345.0pt x 81.74718pt.
+LaTeX Info: Redefining \. on input line 253.
+LaTeX Info: Redefining \% on input line 253.
+ [22 <./imagenes/io.png> <./imagenes/fp.png> <./imagenes/ta.png>]
+Overfull \hbox (5.13945pt too wide) in paragraph at lines 286--288
 []\OT1/cmr/m/n/10 Vivado so-por-ta multi-ples len-gua-jes de des-crip-cion hard-wa-re, en-tre ellos VHDL
  []
 
-LaTeX Info: Redefining \. on input line 246.
-LaTeX Info: Redefining \% on input line 246.
-[21 <./imagenes/fp.png> <./imagenes/ta.png>]
-<imagenes/flujo.png, id=120, 152.9715pt x 145.7445pt>
+<imagenes/flujo.png, id=148, 527.9725pt x 455.7025pt>
 File: imagenes/flujo.png Graphic file (type png)
 <use imagenes/flujo.png>
-Package pdftex.def Info: imagenes/flujo.png  used on input line 249.
-(pdftex.def)             Requested size: 172.5pt x 164.35133pt.
-LaTeX Info: Redefining \. on input line 275.
-LaTeX Info: Redefining \% on input line 275.
- [22 <./imagenes/flujo.png>]
-LaTeX Info: Redefining \. on input line 325.
-LaTeX Info: Redefining \% on input line 325.
- [23]
-LaTeX Info: Redefining \. on input line 367.
-LaTeX Info: Redefining \% on input line 367.
- [24]
-<imagenes/hardware.png, id=131, 337.86224pt x 163.812pt>
+Package pdftex.def Info: imagenes/flujo.png  used on input line 291.
+(pdftex.def)             Requested size: 276.00105pt x 238.21828pt.
+LaTeX Info: Redefining \. on input line 293.
+LaTeX Info: Redefining \% on input line 293.
+[23]
+LaTeX Info: Redefining \. on input line 319.
+LaTeX Info: Redefining \% on input line 319.
+ [24 <./imagenes/flujo.png>]
+<imagenes/rts.png, id=158, 831.70724pt x 509.5035pt>
+File: imagenes/rts.png Graphic file (type png)
+<use imagenes/rts.png>
+Package pdftex.def Info: imagenes/rts.png  used on input line 328.
+(pdftex.def)             Requested size: 345.0pt x 211.34671pt.
+
+Underfull \vbox (badness 1946) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 342.
+LaTeX Info: Redefining \% on input line 342.
+ [25 <./imagenes/rts.png>]
+Underfull \vbox (badness 1337) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 387.
+LaTeX Info: Redefining \% on input line 387.
+ [26]
+LaTeX Info: Redefining \. on input line 429.
+LaTeX Info: Redefining \% on input line 429.
+ [27]
+LaTeX Info: Redefining \. on input line 470.
+LaTeX Info: Redefining \% on input line 470.
+ [28]
+<imagenes/hardware.png, id=172, 310.15875pt x 217.41225pt>
 File: imagenes/hardware.png Graphic file (type png)
 <use imagenes/hardware.png>
-Package pdftex.def Info: imagenes/hardware.png  used on input line 407.
-(pdftex.def)             Requested size: 172.5pt x 83.63548pt.
-
-Underfull \vbox (badness 7238) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 410.
-LaTeX Info: Redefining \% on input line 410.
- [25]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 423.
+Package pdftex.def Info: imagenes/hardware.png  used on input line 473.
+(pdftex.def)             Requested size: 172.5pt x 120.91733pt.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 488.
  ("C:\Program Files\MiKTeX\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 423.
-<imagenes/catalogoip.png, id=136, 649.2255pt x 307.1475pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 488.
+LaTeX Info: Redefining \. on input line 502.
+LaTeX Info: Redefining \% on input line 502.
+ [29 <./imagenes/hardware.png>]
+<imagenes/catalogoip.png, id=178, 287.8755pt x 609.477pt>
 File: imagenes/catalogoip.png Graphic file (type png)
 <use imagenes/catalogoip.png>
-Package pdftex.def Info: imagenes/catalogoip.png  used on input line 443.
-(pdftex.def)             Requested size: 345.0pt x 163.21857pt.
-LaTeX Info: Redefining \. on input line 446.
-LaTeX Info: Redefining \% on input line 446.
- [26 <./imagenes/hardware.png>]
-<imagenes/blockmemory.PNG, id=141, 696.80325pt x 507.0945pt>
+Package pdftex.def Info: imagenes/catalogoip.png  used on input line 508.
+(pdftex.def)             Requested size: 172.5pt x 365.22403pt.
+LaTeX Info: Redefining \. on input line 525.
+LaTeX Info: Redefining \% on input line 525.
+ [30 <./imagenes/catalogoip.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 581.
+LaTeX Info: Redefining \% on input line 581.
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 652.
+LaTeX Info: Redefining \% on input line 652.
+ [32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 700.
+LaTeX Info: Redefining \% on input line 700.
+ [33]
+<imagenes/blockmemory.PNG, id=194, 814.84425pt x 604.659pt>
 File: imagenes/blockmemory.PNG Graphic file (type png)
 <use imagenes/blockmemory.PNG>
-Package pdftex.def Info: imagenes/blockmemory.PNG  used on input line 463.
-(pdftex.def)             Requested size: 345.0pt x 251.07831pt.
+Package pdftex.def Info: imagenes/blockmemory.PNG  used on input line 713.
+(pdftex.def)             Requested size: 345.0pt x 256.01251pt.
+LaTeX Info: Redefining \. on input line 723.
+LaTeX Info: Redefining \% on input line 723.
+ [34 <./imagenes/blockmemory.PNG>]
+LaTeX Info: Redefining \. on input line 765.
+LaTeX Info: Redefining \% on input line 765.
+ [35]
+<imagenes/memoria.png, id=203, 822.07124pt x 246.32025pt>
+File: imagenes/memoria.png Graphic file (type png)
+<use imagenes/memoria.png>
+Package pdftex.def Info: imagenes/memoria.png  used on input line 790.
+(pdftex.def)             Requested size: 345.0pt x 103.37111pt.
+<imagenes/memoria1.png, id=204, 831.105pt x 233.673pt>
+File: imagenes/memoria1.png Graphic file (type png)
+<use imagenes/memoria1.png>
+Package pdftex.def Info: imagenes/memoria1.png  used on input line 796.
+(pdftex.def)             Requested size: 345.0pt x 97.001pt.
+LaTeX Info: Redefining \. on input line 807.
+LaTeX Info: Redefining \% on input line 807.
+ [36 <./imagenes/memoria.png> <./imagenes/memoria1.png>]
+<imagenes/clockingwizard.png, id=210, 816.651pt x 608.87476pt>
+File: imagenes/clockingwizard.png Graphic file (type png)
+<use imagenes/clockingwizard.png>
+Package pdftex.def Info: imagenes/clockingwizard.png  used on input line 823.
+(pdftex.def)             Requested size: 241.49895pt x 180.05315pt.
+
+Underfull \vbox (badness 2042) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 830.
+LaTeX Info: Redefining \% on input line 830.
+ [37 <./imagenes/clockingwizard.png>]
+LaTeX Info: Redefining \. on input line 862.
+LaTeX Info: Redefining \% on input line 862.
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 905.
+LaTeX Info: Redefining \% on input line 905.
+ [39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 973.
+LaTeX Info: Redefining \% on input line 973.
+ [40]
+LaTeX Info: Redefining \. on input line 1032.
+LaTeX Info: Redefining \% on input line 1032.
+ [41]
+LaTeX Info: Redefining \. on input line 1094.
+LaTeX Info: Redefining \% on input line 1094.
+ [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1166.
+LaTeX Info: Redefining \% on input line 1166.
+ [43]
+<imagenes/procesador.png, id=234, 687.16725pt x 264.99pt>
+File: imagenes/procesador.png Graphic file (type png)
+<use imagenes/procesador.png>
+Package pdftex.def Info: imagenes/procesador.png  used on input line 1180.
+(pdftex.def)             Requested size: 345.0pt x 133.04053pt.
+<imagenes/procesador1.png, id=235, 752.8125pt x 314.3745pt>
+File: imagenes/procesador1.png Graphic file (type png)
+<use imagenes/procesador1.png>
+Package pdftex.def Info: imagenes/procesador1.png  used on input line 1190.
+(pdftex.def)             Requested size: 345.0pt x 144.07675pt.
+
+Underfull \vbox (badness 1688) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1201.
+LaTeX Info: Redefining \% on input line 1201.
+ [44 <./imagenes/procesador.png> <./imagenes/procesador1.png>]
+Underfull \vbox (badness 8019) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1246.
+LaTeX Info: Redefining \% on input line 1246.
+ [45]
+LaTeX Info: Redefining \. on input line 1304.
+LaTeX Info: Redefining \% on input line 1304.
+ [46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \. on input line 1376.
+LaTeX Info: Redefining \% on input line 1376.
+ [47]
+<imagenes/bola.png, id=251, 770.88pt x 433.62pt>
+File: imagenes/bola.png Graphic file (type png)
+<use imagenes/bola.png>
+Package pdftex.def Info: imagenes/bola.png  used on input line 1402.
+(pdftex.def)             Requested size: 345.0pt x 194.06194pt.
+) (capitulos/06_Conclusiones.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [48 <./imagenes/bola.png>]
+Cap\'{\i }tulo 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 466.
-LaTeX Info: Redefining \% on input line 466.
- [27 <./imagenes/catalogoip.png>]
-LaTeX Info: Redefining \. on input line 492.
-LaTeX Info: Redefining \% on input line 492.
- [28 <./imagenes/blockmemory.PNG>]
-LaTeX Info: Redefining \. on input line 535.
-LaTeX Info: Redefining \% on input line 535.
- [29]
-<imagenes/contador4bits.png, id=153, 746.18774pt x 339.06676pt>
+ [49
+
+]) (capitulos/07_Anexo.tex [50]
+<imagenes/netlist2.png, id=261, 614.89725pt x 298.11375pt>
+File: imagenes/netlist2.png Graphic file (type png)
+<use imagenes/netlist2.png>
+Package pdftex.def Info: imagenes/netlist2.png  used on input line 47.
+(pdftex.def)             Requested size: 345.0pt x 167.26552pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51
+
+]
+<imagenes/contador4bits.png, id=265, 746.18774pt x 339.06676pt>
 File: imagenes/contador4bits.png Graphic file (type png)
 <use imagenes/contador4bits.png>
-Package pdftex.def Info: imagenes/contador4bits.png  used on input line 577.
+Package pdftex.def Info: imagenes/contador4bits.png  used on input line 95.
 (pdftex.def)             Requested size: 345.0pt x 156.76935pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 580.
-LaTeX Info: Redefining \% on input line 580.
- [30]
-<imagenes/netlist1.png, id=159, 1028.04076pt x 385.44pt>
+ [52 <./imagenes/netlist2.png>]
+<imagenes/netlist1.png, id=270, 1144.87724pt x 511.9125pt>
 File: imagenes/netlist1.png Graphic file (type png)
 <use imagenes/netlist1.png>
-Package pdftex.def Info: imagenes/netlist1.png  used on input line 585.
-(pdftex.def)             Requested size: 345.0pt x 129.34816pt.
-LaTeX Info: Redefining \. on input line 608.
-LaTeX Info: Redefining \% on input line 608.
- [31 <./imagenes/contador4bits.png> <./imagenes/netlist1.png>]
-LaTeX Info: Redefining \. on input line 682.
-LaTeX Info: Redefining \% on input line 682.
- [32]
-<imagenes/memoria.png, id=169, 728.12025pt x 339.06676pt>
-File: imagenes/memoria.png Graphic file (type png)
-<use imagenes/memoria.png>
-Package pdftex.def Info: imagenes/memoria.png  used on input line 728.
-(pdftex.def)             Requested size: 345.0pt x 160.65999pt.
+Package pdftex.def Info: imagenes/netlist1.png  used on input line 105.
+(pdftex.def)             Requested size: 345.0pt x 154.26231pt.
+<imagenes/simulacionfuncional.png, id=271, 514.3215pt x 218.0145pt>
+File: imagenes/simulacionfuncional.png Graphic file (type png)
+<use imagenes/simulacionfuncional.png>
+Package pdftex.def Info: imagenes/simulacionfuncional.png  used on input line 113.
+(pdftex.def)             Requested size: 345.0pt x 146.24193pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 731.
-LaTeX Info: Redefining \% on input line 731.
- [33]
-LaTeX Info: Redefining \. on input line 778.
-LaTeX Info: Redefining \% on input line 778.
- [34 <./imagenes/memoria.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 849.
-LaTeX Info: Redefining \% on input line 849.
- [35]
-LaTeX Info: Redefining \. on input line 919.
-LaTeX Info: Redefining \% on input line 919.
- [36]
-<imagenes/procesador.png, id=183, 1136.44576pt x 324.61275pt>
-File: imagenes/procesador.png Graphic file (type png)
-<use imagenes/procesador.png>
-Package pdftex.def Info: imagenes/procesador.png  used on input line 982.
-(pdftex.def)             Requested size: 345.0pt x 98.54361pt.
+LaTeX Info: Redefining \. on input line 116.
+LaTeX Info: Redefining \% on input line 116.
+ [53 <./imagenes/contador4bits.png> <./imagenes/netlist1.png>]
+<imagenes/analisis.png, id=278, 632.3625pt x 151.767pt>
+File: imagenes/analisis.png Graphic file (type png)
+<use imagenes/analisis.png>
+Package pdftex.def Info: imagenes/analisis.png  used on input line 125.
+(pdftex.def)             Requested size: 345.0pt x 82.80052pt.
+<imagenes/simulaciontemporal.png, id=279, 1139.457pt x 342.078pt>
+File: imagenes/simulaciontemporal.png Graphic file (type png)
+<use imagenes/simulaciontemporal.png>
+Package pdftex.def Info: imagenes/simulaciontemporal.png  used on input line 134.
+(pdftex.def)             Requested size: 345.0pt x 103.57416pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 985.
-LaTeX Info: Redefining \% on input line 985.
- [37]
-LaTeX Info: Redefining \. on input line 1035.
-LaTeX Info: Redefining \% on input line 1035.
- [38 <./imagenes/procesador.png>]
+ [54 <./imagenes/simulacionfuncional.png> <./imagenes/analisis.png>]
+<imagenes/analisis2.png, id=285, 604.05675pt x 131.2905pt>
+File: imagenes/analisis2.png Graphic file (type png)
+<use imagenes/analisis2.png>
+Package pdftex.def Info: imagenes/analisis2.png  used on input line 167.
+(pdftex.def)             Requested size: 345.0pt x 74.9866pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 1102.
-LaTeX Info: Redefining \% on input line 1102.
- [39]
-LaTeX Info: Redefining \. on input line 1156.
-LaTeX Info: Redefining \% on input line 1156.
- [40]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Info: Redefining \. on input line 170.
+LaTeX Info: Redefining \% on input line 170.
+ [55 <./imagenes/simulaciontemporal.png>]
+Overfull \hbox (7.22182pt too wide) in paragraph at lines 171--172
+[]\OT1/cmr/m/n/10 Y aho-ra po-de-mos vol-ver a rea-li-zar la si-mu-la-cion fun-cio-nal post-implementation
+ []
 
-LaTeX Info: Redefining \. on input line 1215.
-LaTeX Info: Redefining \% on input line 1215.
- [41]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \. on input line 1285.
-LaTeX Info: Redefining \% on input line 1285.
- [42]) (capitulos/06_Conclusiones.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [43] [44
-
-]
-Cap\'{\i }tulo 6.
-) [45] (proyecto.bbl [46
+<imagenes/simulacionfuncional2.png, id=290, 512.51476pt x 316.18124pt>
+File: imagenes/simulacionfuncional2.png Graphic file (type png)
+<use imagenes/simulacionfuncional2.png>
+Package pdftex.def Info: imagenes/simulacionfuncional2.png  used on input line 175.
+(pdftex.def)             Requested size: 345.0pt x 212.839pt.
+<imagenes/simulaciontemporal2.png, id=291, 1138.85475pt x 341.47575pt>
+File: imagenes/simulaciontemporal2.png Graphic file (type png)
+<use imagenes/simulaciontemporal2.png>
+Package pdftex.def Info: imagenes/simulaciontemporal2.png  used on input line 181.
+(pdftex.def)             Requested size: 345.0pt x 103.44392pt.
+[56 <./imagenes/analisis2.png> <./imagenes/simulacionfuncional2.png> <./imagenes/simulaciontemporal2.png>])
+LaTeX Info: Redefining \. on input line 144.
+LaTeX Info: Redefining \% on input line 144.
+ [57] (proyecto.bbl [58
 
 
 ]
-Underfull \hbox (badness 3724) in paragraph at lines 51--55
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+[]\OT1/cmr/m/n/10 MCI Ca-pa-ci-ta-cion.  Fp-ga (field pro-gram-ma-ble ga-te
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+\OT1/cmr/m/n/10 array).  $\OT1/cmtt/m/n/10 https : / / cursos . mcielectronics . cl / 2019 / 06 / 18 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
+\OT1/cmtt/m/n/10 com / reference / programmable-[]logic / genesys-[]2 / reference-[]manual ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--54
+[]\OT1/cmr/m/n/10 Digilent.  Sys-tem boards.  $\OT1/cmtt/m/n/10 https : / / store . digilentinc . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--60
+\OT1/cmtt/m/n/10 / / reference . digilentinc . com / reference / programmable-[]logic /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
+[]\OT1/cmr/m/n/10 Intel.  $\OT1/cmtt/m/n/10 https : / / www . intel . com / content / www / us / en / products /
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 81--85
+[]\OT1/cmr/m/n/10 Intel.  In-tel fp-ga sdk for opencl soft-wa-re tech-no-logy.  $\OT1/cmtt/m/n/10 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--85
+\OT1/cmtt/m/n/10 / / www . intel . com / content / www / us / en / software / programmable /
+ []
+
+[59]
+Underfull \hbox (badness 2343) in paragraph at lines 87--91
+[]\OT1/cmr/m/n/10 Intel.  In-tel high le-vel synthe-sis com-pi-ler.  $\OT1/cmtt/m/n/10 https : / / www . intel .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
+\OT1/cmtt/m/n/10 com / content / www / us / en / software / programmable / quartus-[]prime /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--104
+[]\OT1/cmr/m/n/10 Clive Max-field.  Con-cep-tos fun-da-men-ta-les de los fp-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--104
+\OT1/cmr/m/n/10 ga { par-te 2: Pre-sen-ta-cion de los fp-ga de lat-ti-ce se-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--104
+\OT1/cmr/m/n/10 mi-con-duc-tor.  $\OT1/cmtt/m/n/10 https : / / www . digikey . es / es / articles /
+ []
+
+
+Overfull \hbox (87.57986pt too wide) in paragraph at lines 99--104
+\OT1/cmtt/m/n/10 fundamentals-[]of-[]fpgas-[]part-[]2-[]getting-[]started-[]with-[]lattice-[]semiconductor-[]fpgas$\OT1/cmr/m/n/10 . 
+ []
+
+
+Overfull \hbox (24.08041pt too wide) in paragraph at lines 113--118
+\OT1/cmtt/m/n/10 fundamentals-[]of-[]fpgas-[]part-[]3-[]getting-[]started-[]with-[]microchip-[]fpgas$\OT1/cmr/m/n/10 . 
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 120--125
+[]\OT1/cmr/m/n/10 Clive Max-field.  Fun-da-men-tos de los fp-ga - par-te 4: In-tro-duc-cion
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 120--125
+\OT1/cmr/m/n/10 de los fp-ga de xi-linx.  $\OT1/cmtt/m/n/10 https : / / www . digikey . es / es / articles /
+ []
+
+
+Overfull \hbox (8.33055pt too wide) in paragraph at lines 120--125
+\OT1/cmtt/m/n/10 fundamentals-[]of-[]fpgas-[]part-[]4-[]getting-[]started-[]with-[]xilinx-[]fpgas$\OT1/cmr/m/n/10 . 
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 161--165
 []\OT1/cmr/m/n/10 Xilinx.  Block me-mory ge-ne-ra-tor v8.4 lo-gi-co-re ip pro-duct gui-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--55
+Underfull \hbox (badness 10000) in paragraph at lines 161--165
 \OT1/cmr/m/n/10 de.  $\OT1/cmtt/m/n/10 https : / / www . xilinx . com / support / documentation / ip _
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 57--61
+Underfull \hbox (badness 1360) in paragraph at lines 167--171
 []\OT1/cmr/m/n/10 Xilinx.  Cloc-king wi-zard v6.0 lo-gi-co-re ip pro-duct gui-de.  $\OT1/cmtt/m/n/10 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--61
+Underfull \hbox (badness 10000) in paragraph at lines 167--171
 \OT1/cmtt/m/n/10 / / www . xilinx . com / support / documentation / ip _ documentation / clk _
  []
 
+LaTeX Info: Redefining \. on input line 183.
+LaTeX Info: Redefining \% on input line 183.
+[60]
+Underfull \hbox (badness 1184) in paragraph at lines 185--188
+[]\OT1/cmr/m/n/10 Xilinx.  Vi-va-do de-sign sui-te.  $\OT1/cmtt/m/n/10 https : / / www . xilinx . com / products /
+ []
 
-Underfull \hbox (badness 5175) in paragraph at lines 69--73
+
+Underfull \hbox (badness 5175) in paragraph at lines 190--194
 []\OT1/cmr/m/n/10 Xilinx.  Vi-va-do de-sign sui-te user gui-de : De-sig-ning with ip.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--73
+Underfull \hbox (badness 10000) in paragraph at lines 190--194
 \OT1/cmtt/m/n/10 https : / / www . xilinx . com / support / documentation / sw _ manuals /
  []
 
 
-Underfull \hbox (badness 6725) in paragraph at lines 75--79
+Underfull \hbox (badness 6725) in paragraph at lines 196--200
 []\OT1/cmr/m/n/10 Xilinx.  Vi-va-do de-sign sui-te user gui-de : Using the vi-va-do
  []
 
-[47])
-LaTeX Info: Redefining \. on input line 150.
-LaTeX Info: Redefining \% on input line 150.
- [48] (proyecto.aux
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--218
+\OT1/cmtt/m/n/10 support / documentation / data _ sheets / ds190-[]Zynq-[]7000-[]Overview .
+ []
+
+)
+LaTeX Info: Redefining \. on input line 153.
+LaTeX Info: Redefining \% on input line 153.
+ [61] (proyecto.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 6308 strings out of 480790
- 90416 string characters out of 2907056
- 592564 words of memory out of 3000000
- 22175 multiletter control sequences out of 15000+200000
+ 6469 strings out of 480790
+ 93692 string characters out of 2907056
+ 579028 words of memory out of 3000000
+ 22317 multiletter control sequences out of 15000+200000
  537046 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,45p,297b,1932s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,13n,45p,395b,1932s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\eleni\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on proyecto.pdf (54 pages, 8612672 bytes).
+Output written on proyecto.pdf (75 pages, 7644486 bytes).
 PDF statistics:
- 268 PDF objects out of 1000 (max. 8388607)
+ 360 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

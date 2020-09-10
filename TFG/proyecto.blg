@@ -6,45 +6,45 @@ The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 26 items.
 Database file #1: bibliografia/bibliografia.bib
 Warning--empty booktitle in sun2012high
-You've used 15 entries,
+You've used 38 entries,
             2118 wiz_defined-function locations,
-            556 strings with 5983 characters,
-and the built_in function-call counts, 3477 in all, are:
-= -- 308
-> -- 158
+            628 strings with 8895 characters,
+and the built_in function-call counts, 8175 in all, are:
+= -- 742
+> -- 325
 < -- 0
-+ -- 66
-- -- 50
-* -- 137
-:= -- 601
-add.period$ -- 44
-call.type$ -- 15
-change.case$ -- 66
++ -- 137
+- -- 98
+* -- 256
+:= -- 1383
+add.period$ -- 110
+call.type$ -- 38
+change.case$ -- 156
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 132
-empty$ -- 335
-format.name$ -- 50
-if$ -- 740
+cite$ -- 39
+duplicate$ -- 293
+empty$ -- 841
+format.name$ -- 98
+if$ -- 1776
 int.to.chr$ -- 0
-int.to.str$ -- 15
+int.to.str$ -- 38
 missing$ -- 9
-newline$ -- 77
-num.names$ -- 30
-pop$ -- 132
+newline$ -- 189
+num.names$ -- 76
+pop$ -- 320
 preamble$ -- 1
-purify$ -- 55
+purify$ -- 125
 quote$ -- 0
-skip$ -- 109
+skip$ -- 294
 stack$ -- 0
-substring$ -- 76
-swap$ -- 14
+substring$ -- 191
+swap$ -- 37
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
+type$ -- 144
 warning$ -- 1
-while$ -- 30
-width$ -- 17
-write$ -- 141
+while$ -- 76
+width$ -- 40
+write$ -- 342
 (There was 1 warning)

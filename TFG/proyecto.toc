@@ -1,32 +1,32 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}Resumen y palabras clave}{1}%
-\contentsline {chapter}{\numberline {2}Resumen extendido y palabras clave en inglés}{3}%
-\contentsline {chapter}{\numberline {3}Motivación e introducción}{5}%
-\contentsline {section}{\numberline {3.1}Sistemas basados en dispositivos FPGAs}{5}%
-\contentsline {section}{\numberline {3.2}Niveles de síntesis automática}{7}%
-\contentsline {section}{\numberline {3.3}Plataformas de desarrollo}{9}%
-\contentsline {subsection}{\numberline {3.3.1}Principales fabricantes de FPGAs}{9}%
-\contentsline {subsection}{\numberline {3.3.2}Herrramientas software de desarrollo}{9}%
-\contentsline {subsection}{\numberline {3.3.3}Plataformas de propósito académico}{9}%
-\contentsline {section}{\numberline {3.4}Estructura de la memoria}{10}%
-\contentsline {chapter}{\numberline {4}Objetivos del trabajo}{11}%
-\contentsline {chapter}{\numberline {5}Resolución del trabajo}{13}%
-\contentsline {section}{\numberline {5.1}Materiales}{13}%
-\contentsline {subsection}{\numberline {5.1.1}Familia Zynq-7000}{13}%
-\contentsline {subsection}{\numberline {5.1.2}Tarjeta Zybo}{13}%
-\contentsline {subsection}{\numberline {5.1.3}Vivado}{16}%
-\contentsline {section}{\numberline {5.2}Metodología}{21}%
-\contentsline {subsection}{\numberline {5.2.1}Diseño}{22}%
-\contentsline {subsection}{\numberline {5.2.2}Simulación}{22}%
-\contentsline {subsection}{\numberline {5.2.3}Síntesis}{24}%
-\contentsline {subsection}{\numberline {5.2.4}Implementación}{24}%
-\contentsline {subsection}{\numberline {5.2.5}Generación Bitstream}{25}%
-\contentsline {section}{\numberline {5.3}Desarrollo de módulos hardware específicos}{26}%
-\contentsline {subsection}{\numberline {5.3.1}Procesador específico}{27}%
-\contentsline {subsection}{\numberline {5.3.2}Memoria RAM de un sólo puerto con entradas registradas}{27}%
-\contentsline {subsection}{\numberline {5.3.3}Módulo de generación de reloj}{29}%
-\contentsline {subsection}{\numberline {5.3.4}Controlador VGA}{29}%
-\contentsline {section}{\numberline {5.4}Casos prácticos}{29}%
-\contentsline {subsection}{\numberline {5.4.1}Computador básico}{30}%
-\contentsline {subsection}{\numberline {5.4.2}Visualización y movimiento de objetos en monitor VGA}{30}%
-\contentsline {chapter}{\numberline {6}Conclusiones y vías futuras}{45}%
+\contentsline {chapter}{\numberline {1}Motivación e introducción}{1}%
+\contentsline {section}{\numberline {1.1}Sistemas basados en dispositivos FPGAs}{1}%
+\contentsline {section}{\numberline {1.2}Niveles de síntesis automática}{4}%
+\contentsline {section}{\numberline {1.3}Plataformas de desarrollo}{5}%
+\contentsline {subsection}{\numberline {1.3.1}Principales fabricantes de FPGAs}{6}%
+\contentsline {subsection}{\numberline {1.3.2}Herrramientas software de desarrollo}{7}%
+\contentsline {subsection}{\numberline {1.3.3}Plataformas de propósito académico}{8}%
+\contentsline {section}{\numberline {1.4}Estructura de la memoria}{9}%
+\contentsline {chapter}{\numberline {2}Objetivos del trabajo}{11}%
+\contentsline {chapter}{\numberline {3}Resolución del trabajo}{13}%
+\contentsline {section}{\numberline {3.1}Materiales}{13}%
+\contentsline {subsection}{\numberline {3.1.1}Familia Zynq-7000}{13}%
+\contentsline {subsection}{\numberline {3.1.2}Tarjeta Zybo}{16}%
+\contentsline {subsection}{\numberline {3.1.3}Vivado}{18}%
+\contentsline {section}{\numberline {3.2}Metodología}{23}%
+\contentsline {subsection}{\numberline {3.2.1}Diseño}{23}%
+\contentsline {subsection}{\numberline {3.2.2}Simulación}{24}%
+\contentsline {subsection}{\numberline {3.2.3}Síntesis}{27}%
+\contentsline {subsection}{\numberline {3.2.4}Implementación}{27}%
+\contentsline {subsection}{\numberline {3.2.5}Generación Bitstream}{28}%
+\contentsline {section}{\numberline {3.3}Módulos IP específicos}{29}%
+\contentsline {subsection}{\numberline {3.3.1}Procesador específico}{31}%
+\contentsline {subsection}{\numberline {3.3.2}Memoria RAM de un sólo puerto con entradas registradas}{34}%
+\contentsline {subsection}{\numberline {3.3.3}Módulo de generación de reloj}{37}%
+\contentsline {subsection}{\numberline {3.3.4}Controlador VGA}{38}%
+\contentsline {section}{\numberline {3.4}Casos prácticos}{41}%
+\contentsline {subsection}{\numberline {3.4.1}Computador básico}{42}%
+\contentsline {subsection}{\numberline {3.4.2}Visualización y movimiento de objetos en monitor VGA}{45}%
+\contentsline {chapter}{\numberline {4}Conclusiones y vías futuras}{49}%
+\contentsline {chapter}{\textsc {Anexo}}{50}%
+\contentsline {chapter}{\textsc {Bibliografia}}{58}%

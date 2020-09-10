@@ -118,7 +118,7 @@ Telecomunicación\xspace}
 \usepackage{pdfpages}
 \begin{document}
 \input{portada/portada}
-%\input{prefacios/prefacio}
+\input{prefacios/prefacio}
 \frontmatter
 \tableofcontents
 \listoffigures
@@ -127,9 +127,9 @@ Telecomunicación\xspace}
 \mainmatter
 \setlength{\parskip}{5pt}
 
-\input{capitulos/01_ResumenClave}
+%\input{capitulos/01_ResumenClave}
 
-\input{capitulos/02_ResumenInglés}
+%\input{capitulos/02_ResumenInglés}
 
 \input{capitulos/03_MotivacionIntrosuccion}
 
@@ -139,9 +139,12 @@ Telecomunicación\xspace}
 
 \input{capitulos/06_Conclusiones}
 
+\input{capitulos/07_Anexo}
+
 \clearpage
 \nocite{*}
 \bibliographystyle{plain}
+\addcontentsline{toc}{chapter}{\textsc{Bibliografia}}
 \bibliography{bibliografia/bibliografia}
 
 %Se incluirá tanto las fuentes primarias como todas aquellas cuyo peso haya sido menor en la realización del trabajo. Un breve comentario de las referencias es conveniente, que puede ser individualizado, por grupos de referencias o global.

@@ -1,14 +1,106 @@
 \begin{thebibliography}{10}
 
+\bibitem{arquitectura}
+MCI Capacitación.
+\newblock Fpga (field programmable gate array).
+\newblock
+  \url{https://cursos.mcielectronics.cl/2019/06/18/fpga-field-programmable-gate-array/}.
+
+\bibitem{Anvyl}
+Digilent.
+\newblock Anvyl fpga board reference manual.
+\newblock \url{https://reference.digilentinc.com/_media/anvyl:anvyl_rm.pdf}.
+
+\bibitem{arty}
+Digilent.
+\newblock Arty a7 reference manual.
+\newblock
+  \url{https://reference.digilentinc.com/reference/programmable-logic/arty-a7/reference-manual}.
+
+\bibitem{artys7}
+Digilent.
+\newblock Arty s7 reference manual.
+\newblock
+  \url{https://reference.digilentinc.com/reference/programmable-logic/arty-s7/reference-manual}.
+
+\bibitem{basys2}
+Digilent.
+\newblock Basys 2 fpga board reference manual.
+\newblock \url{https://reference.digilentinc.com/_media/basys2:basys2_rm.pdf}.
+
+\bibitem{basys}
+Digilent.
+\newblock Basys 3 reference manual.
+\newblock
+  \url{https://reference.digilentinc.com/reference/programmable-logic/basys-3/reference-manual}.
+
+\bibitem{genesys}
+Digilent.
+\newblock Genesys 2 reference manual.
+\newblock
+  \url{https://reference.digilentinc.com/reference/programmable-logic/genesys-2/reference-manual?redirect=1}.
+
+\bibitem{pynq1}
+Digilent.
+\newblock Pynq-z1 reference manual.
+\newblock
+  \url{https://reference.digilentinc.com/reference/programmable-logic/pynq-z1/reference-manual}.
+
+\bibitem{digi}
+Digilent.
+\newblock System boards.
+\newblock
+  \url{https://store.digilentinc.com/fpga-programmable-logic/system-boards/}.
+
+\bibitem{zed}
+Digilent.
+\newblock Zedboard zynq-7000 development board reference manual.
+\newblock
+  \url{https://reference.digilentinc.com/reference/programmable-logic/zedboard/reference-manual}.
+
 \bibitem{manual_zybo}
 Digilent.
 \newblock Zybo fpga board reference manual.
 \newblock \url{https://reference.digilentinc.com/_media/zybo:zybo_rm.pdf}.
 
+\bibitem{mentor}
+Mentor Graphics.
+\newblock \url{https://www.mentor.com/}.
+
 \bibitem{hamblen2007rapid}
 James~O Hamblen, Tyson~S Hall, and Michael~D Furman.
 \newblock {\em Rapid prototyping of digital systems: SOPC edition}.
 \newblock Springer Science \& Business Media, 2007.
+
+\bibitem{quartus}
+Intel.
+\newblock
+  \url{https://www.intel.com/content/www/us/en/products/programmable.html}.
+
+\bibitem{intelsdk}
+Intel.
+\newblock Intel fpga sdk for opencl software technology.
+\newblock
+  \url{https://www.intel.com/content/www/us/en/software/programmable/sdk-for-opencl/overview.html?wapkw=intel%20fpga%20sdk}.
+
+\bibitem{intelhls}
+Intel.
+\newblock Intel high level synthesis compiler.
+\newblock
+  \url{https://www.intel.com/content/www/us/en/software/programmable/quartus-prime/hls-compiler.html?wapkw=hls%20compiler}.
+
+\bibitem{mercado}
+Markets and Markets.
+\newblock Fpga market.
+\newblock
+  \url{https://www.marketsandmarkets.com/Market-Reports/fpga-market-194123367.html}.
+
+\bibitem{lattice}
+Clive Maxfield.
+\newblock Conceptos fundamentales de los fpga – parte 2: Presentación de los
+  fpga de lattice semiconductor.
+\newblock
+  \url{https://www.digikey.es/es/articles/fundamentals-of-fpgas-part-2-getting-started-with-lattice-semiconductor-fpgas}.
 
 \bibitem{fpga_clive}
 Clive Maxfield.
@@ -16,6 +108,20 @@ Clive Maxfield.
   son necesarios?
 \newblock
   \url{https://www.digikey.es/es/articles/fundamentals-of-fpgas-what-are-fpgas-and-why-are-they-needed}.
+
+\bibitem{microchip}
+Clive Maxfield.
+\newblock Fundamentos de las fpga - parte 3: Introducción a las fpga de
+  microchip technology.
+\newblock
+  \url{https://www.digikey.es/es/articles/fundamentals-of-fpgas-part-3-getting-started-with-microchip-fpgas}.
+
+\bibitem{xilinx2}
+Clive Maxfield.
+\newblock Fundamentos de los fpga - parte 4: Introducción de los fpga de
+  xilinx.
+\newblock
+  \url{https://www.digikey.es/es/articles/fundamentals-of-fpgas-part-4-getting-started-with-xilinx-fpgas}.
 
 \bibitem{maxfield2}
 Clive Maxfield.
@@ -36,6 +142,10 @@ Gina Smith.
 Yang Sun, Kiarash Amiri, Guohui Wang, Bei Yin, Joseph~R Cavallaro, and Tai Ly.
 \newblock High-level design tools for complex dsp applications.
 \newblock Elsevier, Waltham, MA, 2012.
+
+\bibitem{synopsis}
+Synopsys.
+\newblock \url{https://www.synopsys.com/}.
 
 \bibitem{teres1997vhdl}
 L~Ter{\'e}s, Y~Torroja, S~Olcoz, and E~Villar.
@@ -65,6 +175,17 @@ Xilinx.
 \newblock
   \url{https://www.xilinx.com/products/silicon-devices/fpga/what-is-an-fpga.html}.
 
+\bibitem{vitis}
+Xilinx.
+\newblock Vitis unified software platform.
+\newblock
+  \url{https://www.xilinx.com/products/design-tools/vitis/vitis-platform.html}.
+
+\bibitem{vivado1}
+Xilinx.
+\newblock Vivado design suite.
+\newblock \url{https://www.xilinx.com/products/design-tools/vivado.html}.
+
 \bibitem{ip}
 Xilinx.
 \newblock Vivado design suite user guide : Designing with ip.
@@ -82,5 +203,17 @@ Xilinx.
 \newblock Xup students.
 \newblock
   \url{https://www.xilinx.com/support/university/students.html#overview}.
+
+\bibitem{support}
+Xilinx.
+\newblock Xup supported boards.
+\newblock
+  \url{https://www.xilinx.com/support/university/boards-portfolio/xup-boards.html}.
+
+\bibitem{zynq7000}
+Xilinx.
+\newblock Zynq-7000 soc data sheet: Overview.
+\newblock
+  \url{https://www.xilinx.com/support/documentation/data_sheets/ds190-Zynq-7000-Overview.pdf}.
 
 \end{thebibliography}
