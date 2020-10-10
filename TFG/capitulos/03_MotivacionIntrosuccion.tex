@@ -1,14 +1,14 @@
 \chapter{Motivación e introducción}
 
-En este capítulo se explica la aquitectura de una FPGA en comparación con otros circuitos integrados digitales. Además se mencionan los campos de aplicación más 
+En este capítulo se explica la arquitectura de una FPGA en comparación con otros circuitos integrados digitales. Además se mencionan los campos de aplicación más 
 importantes. Aquí también, se detallan los distintos niveles de síntesis automática (síntesis funcional, RT-lógica y física). 
 Por último se hace mención a varios fabricantes de FPGAs con sus respectivos dispositivos y a las herramientas software de desarrollo, 
 dando más importancia a las de Xilinx y algunas plataformas de propósito académico del fabricante Xilinx.
 
 \section{Sistemas basados en dispositivos FPGAs} 
 
-Las FPGAs (\textit{Field Programmable Gate Arrays}), son dispositivos semiconductores basados en matrices de bloques lógicos configurables
-(\textbf{CLB}) que están conectados mediante interconexiones programables (Figura \ref{arqFPGA}) \cite{fpga_xilinx}. 
+Las FPGAs (\textit{Field Programmable Gate Arrays}), son dispositivos semiconductores basados en matrices de bloques lógicos configurables,
+(\textbf{CLB}), que están conectados mediante interconexiones programables (Figura \ref{arqFPGA}) \cite{fpga_xilinx}. 
 
 \begin{figure}[H]
     \centering
@@ -17,10 +17,9 @@ Las FPGAs (\textit{Field Programmable Gate Arrays}), son dispositivos semiconduc
 \end{figure}
 
 Los bloques lógicos configurables en las FPGAs basadas en celdas SRAM incluyen LUTs (\textit{tablas de consulta}), flip-flops y 
-multiplexores de entrada y salida. Una LUT almacena una lista de salidas lógicas para cualquier combinación de 
-entradas.
+multiplexores de entrada y salida. Una LUT almacena una lista de salidas lógicas para cualquier combinación de entradas.
 
-Estas FPGAs pueden ser reprogramadas para  algún trabajo específico o para cambiar los requisitos de funcionalidad después de su 
+Estas FPGAs pueden ser reprogramadas para algún trabajo específico o para cambiar sus requisitos de funcionalidad después de su 
 fabricación. Algunas pueden ser programadas una sola vez mientras que otras pueden ser reprogramadas una y otra vez. A estos 
 dispositivos que son programados una única vez son referidos como \textbf{OTP} (\textit{one-time programmable}).
 
@@ -43,11 +42,11 @@ Hay muchos tipos diferentes de circuitos integrados digitales, entre los que des
 \textbf{ASICs} (\textit{Application-Specific Integrated circuits}), \textbf{ASSPs} (\textit{Application-Specific Standard Parts}) y \textbf{FPGAs}.
 
 Los \textbf{PLDs} son dispositivos con una arquitectura interna predeterminada por el fabricante. También son configurables ``in situ'' con tecnologías basadas en fusibles, 
-antifusibles y EPROM o EEPROM. En comparación a las \textbf{FPGAs}, contiene un número limitado de puertas lógicas 
-y las funciones que se suelen implementar son más pequeñas y simples.
+antifusibles y EPROM o EEPROM. En comparación a las \textbf{FPGAs}, contiene un número limitado de puertas lógicas y las funciones que se suelen implementar 
+son más pequeñas y simples.
 
 Por otro lado los \textbf{ASICs} y los \textbf{ASSPs} contienen cientos de millones de puertas lógicas y se usan para crear grandes y complejas 
-funciones. Ambos están basados en los mismos procesos de diseño y tecnologías y pueden ser usados por millones de usuarios y compañias. La 
+funciones. Ambos están basados en los mismos procesos de diseño y tecnologías y pueden ser usados por millones de usuarios y compañías. La 
 única diferencia es que un \textbf{ASIC} está diseñado y fabricado para una aplicación en concreto, mientras que un \textbf{ASSP} lo está 
 para un dominio de aplicaciones.
 
@@ -58,9 +57,9 @@ podían ser realizadas usando \textbf{ASICs}.
 El coste de un diseño de \textbf{FPGA} es mucho menor que el de uno de un \textbf{ASIC}. Al mismo tiempo, los cambios de diseño implementados 
 son más fáciles en \textbf{FPGAs} y el tiempo de comercialización es más rápido \cite{maxfield2}.
 
-Las FPGAs \textbf{SoC}(\textit{System-on-chip}), que es un circuito integrado que tiene todos los componentes necesarios para un sistema electrónico.
+Las FPGAs \textbf{SoC}(\textit{System-on-chip}), son circuitos integrados que tienen todos los componentes necesarios para un sistema electrónico.
 Además de la lógica genérica configurable incluyen empotrados en hardware uno o varios procesadores, memoria DDR, interfaces para buses 
-estándar, interfaces de comunicaciones, e incluso unidades de procesamiento gráfico. Tienen una gran capacidad de procesamiento para 
+estándar, interfaces de comunicaciones e incluso unidades de procesamiento gráfico. Tienen una gran capacidad de procesamiento para 
 adaptarse a diferentes aplicaciones. Una FPGA SoC de bajo costo y consumo se puede utilizar en aplicaciones como tarjetas de procesamiento de 
 vídeo. Sin embargo, hay otros FPGA SoCs que se utilizan en aplicaciones de alto rendimiento en comunicaciones o computación de alto rendimiento.
 
